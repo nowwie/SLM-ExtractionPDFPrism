@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+
+.env
+
+
+data/*.pdf
+data/extracted_pdf.json
+data/llama_extraction.json
+
+
+.ollama/
+models/

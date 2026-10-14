@@ -1,0 +1,7096 @@
+{
+  "REKAP": {
+    "max_row": 1000,
+    "max_column": 26,
+    "rows": [
+      [
+        {
+          "cell": "D2",
+          "value": "BILL OF QUANTITY (BoQ)"
+        },
+        {
+          "cell": "L2",
+          "value": "Estimate Rev."
+        },
+        {
+          "cell": "M2",
+          "value": 0.0
+        }
+      ],
+      [
+        {
+          "cell": "D3",
+          "value": "PT PERTAMINA PATRA NIAGA - SUBHOLDING COMMERCIAL & TRADING"
+        },
+        {
+          "cell": "L3",
+          "value": "Tanggal"
+        },
+        {
+          "cell": "M3",
+          "value": "2026-09-17 00:00:00"
+        }
+      ],
+      [
+        {
+          "cell": "D4",
+          "value": "RELIABILITY & PROJECT DEVELOPMENT - REGIONAL KALIMANTAN"
+        }
+      ],
+      [
+        {
+          "cell": "D5",
+          "value": "PEMBANGUNAN SHELTER SERVICE DAN LANTAI BUNDWALL T10 & T11 AFT SYAMSUDIN NOOR"
+        }
+      ],
+      [
+        {
+          "cell": "A8",
+          "value": "NO"
+        },
+        {
+          "cell": "B8",
+          "value": "URAIAN PEKERJAAN"
+        },
+        {
+          "cell": "L8",
+          "value": "JUMLAH HARGA"
+        }
+      ],
+      [
+        {
+          "cell": "L9",
+          "value": "MATERIAL"
+        },
+        {
+          "cell": "M9",
+          "value": "JASA"
+        }
+      ],
+      [
+        {
+          "cell": "A11",
+          "value": "I"
+        },
+        {
+          "cell": "B11",
+          "value": "#ERROR!"
+        },
+        {
+          "cell": "L11",
+          "value": 0
+        },
+        {
+          "cell": "M11",
+          "value": 509500000
+        }
+      ],
+      [
+        {
+          "cell": "A12",
+          "value": "II"
+        },
+        {
+          "cell": "B12",
+          "value": "#ERROR!"
+        },
+        {
+          "cell": "L12",
+          "value": 1669061085
+        },
+        {
+          "cell": "M12",
+          "value": 522394645.2
+        }
+      ],
+      [
+        {
+          "cell": "A13",
+          "value": "III"
+        },
+        {
+          "cell": "B13",
+          "value": "#ERROR!"
+        },
+        {
+          "cell": "L13",
+          "value": 31500000
+        },
+        {
+          "cell": "M13",
+          "value": 37000000
+        }
+      ],
+      [
+        {
+          "cell": "A14",
+          "value": "IV"
+        },
+        {
+          "cell": "B14",
+          "value": "#ERROR!"
+        },
+        {
+          "cell": "L14",
+          "value": 0
+        },
+        {
+          "cell": "M14",
+          "value": 40000000
+        }
+      ],
+      [
+        {
+          "cell": "A16",
+          "value": "TOTAL SUB JUMLAH I - VI"
+        },
+        {
+          "cell": "L16",
+          "value": 1700561085
+        },
+        {
+          "cell": "M16",
+          "value": 1108894645
+        }
+      ],
+      [
+        {
+          "cell": "B17",
+          "value": "TOTAL SUB JUMLAH"
+        },
+        {
+          "cell": "M17",
+          "value": 2809455730
+        }
+      ],
+      [
+        {
+          "cell": "B18",
+          "value": "KEUNTUNGAN & RESIKO*"
+        },
+        {
+          "cell": "D18",
+          "value": 0.1
+        },
+        {
+          "cell": "M18",
+          "value": 280945573
+        }
+      ],
+      [
+        {
+          "cell": "B19",
+          "value": "TOTAL + KEUNTUNGAN & RESIKO"
+        },
+        {
+          "cell": "M19",
+          "value": 3090401303
+        }
+      ],
+      [
+        {
+          "cell": "B20",
+          "value": "PEMBULATAN "
+        },
+        {
+          "cell": "M20",
+          "value": 3090000000
+        }
+      ],
+      [
+        {
+          "cell": "B21",
+          "value": "TERBILANG: TIGA MILYAR SEMBILAN PULUH JUTA RUPIAH"
+        }
+      ],
+      [
+        {
+          "cell": "B24",
+          "value": "#REF!"
+        }
+      ],
+      [
+        {
+          "cell": "B25",
+          "value": "PT. USAHA JAYA ENGINEERING"
+        }
+      ],
+      [
+        {
+          "cell": "B30",
+          "value": "CHARLES SETIAWAN"
+        }
+      ],
+      [
+        {
+          "cell": "B31",
+          "value": "Direktur"
+        }
+      ]
+    ]
+  },
+  "BOQ": {
+    "max_row": 1000,
+    "max_column": 26,
+    "rows": [
+      [
+        {
+          "cell": "E1",
+          "value": "BILL OF QUANTITY (BoQ)"
+        }
+      ],
+      [
+        {
+          "cell": "E2",
+          "value": "PT PERTAMINA PATRA NIAGA - SUBHOLDING COMMERCIAL & TRADING"
+        }
+      ],
+      [
+        {
+          "cell": "E3",
+          "value": "RELIABILITY & PROJECT DEVELOPMENT - REGIONAL KALIMANTAN"
+        }
+      ],
+      [
+        {
+          "cell": "E4",
+          "value": "PEMBANGUNAN SHELTER SERVICE DAN LANTAI BUNDWALL T10 & T11 AFT SYAMSUDIN NOOR"
+        },
+        {
+          "cell": "S4",
+          "value": 3090401303
+        }
+      ],
+      [
+        {
+          "cell": "A5",
+          "value": "Date :"
+        },
+        {
+          "cell": "C5",
+          "value": "2025-09-12 00:00:00"
+        },
+        {
+          "cell": "O5",
+          "value": "Rev :"
+        },
+        {
+          "cell": "P5",
+          "value": 0.0
+        }
+      ],
+      [
+        {
+          "cell": "A9",
+          "value": "NO."
+        },
+        {
+          "cell": "B9",
+          "value": "URAIAN PEKERJAAN"
+        },
+        {
+          "cell": "L9",
+          "value": "VOLUME"
+        },
+        {
+          "cell": "N9",
+          "value": "HARGA SATUAN "
+        },
+        {
+          "cell": "P9",
+          "value": "JUMLAH HARGA "
+        },
+        {
+          "cell": "T9",
+          "value": 1.0
+        }
+      ],
+      [
+        {
+          "cell": "N10",
+          "value": "MATERIAL"
+        },
+        {
+          "cell": "O10",
+          "value": "JASA"
+        },
+        {
+          "cell": "P10",
+          "value": "MATERIAL"
+        },
+        {
+          "cell": "Q10",
+          "value": "JASA"
+        }
+      ],
+      [
+        {
+          "cell": "A12",
+          "value": "I"
+        },
+        {
+          "cell": "B12",
+          "value": "PEKERJAAN PERSIAPAN"
+        }
+      ],
+      [
+        {
+          "cell": "A13",
+          "value": "1.1"
+        },
+        {
+          "cell": "B13",
+          "value": "Mobilisasi dan Demobilisasi (Material, Tenaga Kerja dan Peralatan Kerja)"
+        },
+        {
+          "cell": "L13",
+          "value": 1.0
+        },
+        {
+          "cell": "M13",
+          "value": "Ls"
+        },
+        {
+          "cell": "N13",
+          "value": 0.0
+        },
+        {
+          "cell": "O13",
+          "value": 185000000.0
+        },
+        {
+          "cell": "P13",
+          "value": 0
+        },
+        {
+          "cell": "Q13",
+          "value": 185000000
+        },
+        {
+          "cell": "R13",
+          "value": 185000000
+        },
+        {
+          "cell": "S13",
+          "value": 6.584905325
+        }
+      ],
+      [
+        {
+          "cell": "A14",
+          "value": "1.2"
+        },
+        {
+          "cell": "B14",
+          "value": "Direksi Keet uk. minimal 12 m2 untuk Kantor Lapangan dan Gudang Sementara"
+        },
+        {
+          "cell": "L14",
+          "value": 1.0
+        },
+        {
+          "cell": "M14",
+          "value": "Ls"
+        },
+        {
+          "cell": "N14",
+          "value": 0.0
+        },
+        {
+          "cell": "O14",
+          "value": 18000000.0
+        },
+        {
+          "cell": "P14",
+          "value": 0
+        },
+        {
+          "cell": "Q14",
+          "value": 18000000
+        },
+        {
+          "cell": "R14",
+          "value": 18000000
+        },
+        {
+          "cell": "S14",
+          "value": 0.6406934911
+        }
+      ],
+      [
+        {
+          "cell": "A15",
+          "value": "1.3"
+        },
+        {
+          "cell": "B15",
+          "value": "Project Management"
+        },
+        {
+          "cell": "L15",
+          "value": 1.0
+        },
+        {
+          "cell": "M15",
+          "value": "Ls"
+        },
+        {
+          "cell": "N15",
+          "value": 0.0
+        },
+        {
+          "cell": "O15",
+          "value": 166500000.0
+        },
+        {
+          "cell": "P15",
+          "value": 0
+        },
+        {
+          "cell": "Q15",
+          "value": 166500000
+        },
+        {
+          "cell": "R15",
+          "value": 166500000
+        },
+        {
+          "cell": "S15",
+          "value": 5.926414793
+        }
+      ],
+      [
+        {
+          "cell": "B16",
+          "value": "-"
+        },
+        {
+          "cell": "C16",
+          "value": "Project Manager, Site Manager, Tenaga Ahli, Tenaga Terampil dan Safety Man"
+        },
+        {
+          "cell": "N16",
+          "value": ""
+        },
+        {
+          "cell": "O16",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B17",
+          "value": "-"
+        },
+        {
+          "cell": "C17",
+          "value": "Engineering Survey dan Pengambilan Data Lapangan"
+        },
+        {
+          "cell": "N17",
+          "value": ""
+        },
+        {
+          "cell": "O17",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B18",
+          "value": "-"
+        },
+        {
+          "cell": "C18",
+          "value": "Perhitungan dan Verifikasi Desain (Detailed Engineering Design)"
+        },
+        {
+          "cell": "N18",
+          "value": ""
+        },
+        {
+          "cell": "O18",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B19",
+          "value": "-"
+        },
+        {
+          "cell": "C19",
+          "value": "Dokumen HSSE (HSE Plan, Pre-Job Activities, Work In Progress, Final Evaluation)"
+        },
+        {
+          "cell": "N19",
+          "value": ""
+        },
+        {
+          "cell": "O19",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B20",
+          "value": "-"
+        },
+        {
+          "cell": "C20",
+          "value": "Dokumen Konstruksi dan Quality Control (Progres Report, Prosedur Konstruksi, Inspection & Test Plan, Material Approval)"
+        },
+        {
+          "cell": "N20",
+          "value": ""
+        },
+        {
+          "cell": "O20",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B21",
+          "value": "-"
+        },
+        {
+          "cell": "C21",
+          "value": "Shop Drawing dan As-built Drawing"
+        },
+        {
+          "cell": "N21",
+          "value": ""
+        },
+        {
+          "cell": "O21",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B22",
+          "value": "-"
+        },
+        {
+          "cell": "C22",
+          "value": "Akomodasi dan Transportasi Lokal"
+        },
+        {
+          "cell": "N22",
+          "value": ""
+        },
+        {
+          "cell": "O22",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B23",
+          "value": "-"
+        },
+        {
+          "cell": "C23",
+          "value": "Welder Performance Qualification Test (WPQT) dan Sertifikasi Welder MIGAS untuk 1 orang"
+        },
+        {
+          "cell": "N23",
+          "value": ""
+        },
+        {
+          "cell": "O23",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A24",
+          "value": "1.4"
+        },
+        {
+          "cell": "B24",
+          "value": "Sarana dan Fasilitas HSSE"
+        },
+        {
+          "cell": "L24",
+          "value": 1.0
+        },
+        {
+          "cell": "M24",
+          "value": "Ls"
+        },
+        {
+          "cell": "N24",
+          "value": 0.0
+        },
+        {
+          "cell": "O24",
+          "value": 90000000.0
+        },
+        {
+          "cell": "P24",
+          "value": 0
+        },
+        {
+          "cell": "Q24",
+          "value": 90000000
+        },
+        {
+          "cell": "R24",
+          "value": 90000000
+        },
+        {
+          "cell": "S24",
+          "value": 3.203467456
+        }
+      ],
+      [
+        {
+          "cell": "B25",
+          "value": "-"
+        },
+        {
+          "cell": "C25",
+          "value": "Medical Check-up (MCU) dan Daily Check-up (DCU)"
+        },
+        {
+          "cell": "N25",
+          "value": ""
+        },
+        {
+          "cell": "O25",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B26",
+          "value": "-"
+        },
+        {
+          "cell": "C26",
+          "value": "Alat Pelindung Diri (APD) standar sesuai Job Safety Analysis"
+        },
+        {
+          "cell": "N26",
+          "value": ""
+        },
+        {
+          "cell": "O26",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B27",
+          "value": "-"
+        },
+        {
+          "cell": "C27",
+          "value": "Rambu-Rambu HSSE (Safety Sign), Safety Line dan Spanduk Proyek"
+        },
+        {
+          "cell": "N27",
+          "value": ""
+        },
+        {
+          "cell": "O27",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B28",
+          "value": "-"
+        },
+        {
+          "cell": "C28",
+          "value": "Listrik dan Air Kerja"
+        },
+        {
+          "cell": "N28",
+          "value": ""
+        },
+        {
+          "cell": "O28",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B29",
+          "value": "-"
+        },
+        {
+          "cell": "C29",
+          "value": "Fire Extinguisher/APAR dan Fire Blanket"
+        },
+        {
+          "cell": "N29",
+          "value": ""
+        },
+        {
+          "cell": "O29",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B30",
+          "value": "-"
+        },
+        {
+          "cell": "C30",
+          "value": "Portable Gas Detector"
+        },
+        {
+          "cell": "N30",
+          "value": ""
+        },
+        {
+          "cell": "O30",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B31",
+          "value": "-"
+        },
+        {
+          "cell": "C31",
+          "value": "Bongkar dan Pasang Alat Bantu Scaffolding termasuk Inspektur Scaffolding"
+        },
+        {
+          "cell": "N31",
+          "value": ""
+        },
+        {
+          "cell": "O31",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A32",
+          "value": "1.5"
+        },
+        {
+          "cell": "B32",
+          "value": "Soil Test (Sondir Test 3 titik dan Bor Test 1 titik c/w Laporan Laboratorium) titik test dilaksanakan di sisi dekat warehouse (kedalaman 50 meter)"
+        },
+        {
+          "cell": "L32",
+          "value": 1.0
+        },
+        {
+          "cell": "M32",
+          "value": "Ls"
+        },
+        {
+          "cell": "N32",
+          "value": 0.0
+        },
+        {
+          "cell": "O32",
+          "value": 50000000.0
+        },
+        {
+          "cell": "P32",
+          "value": 0
+        },
+        {
+          "cell": "Q32",
+          "value": 50000000
+        },
+        {
+          "cell": "R32",
+          "value": 50000000
+        },
+        {
+          "cell": "S32",
+          "value": 1.779704142
+        }
+      ],
+      [
+        {
+          "cell": "N33",
+          "value": ""
+        },
+        {
+          "cell": "O33",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B34",
+          "value": "SUBTOTAL"
+        },
+        {
+          "cell": "P34",
+          "value": 0
+        },
+        {
+          "cell": "Q34",
+          "value": 509500000
+        }
+      ],
+      [
+        {
+          "cell": "A36",
+          "value": "II"
+        },
+        {
+          "cell": "B36",
+          "value": "PEKERJAAN  SIPIL"
+        }
+      ],
+      [
+        {
+          "cell": "A37",
+          "value": "2.1"
+        },
+        {
+          "cell": "B37",
+          "value": "Pekerjaan Pembangunan Warehouse dan Workshop Maintenance Refueller"
+        },
+        {
+          "cell": "R37",
+          "value": 0
+        },
+        {
+          "cell": "S37",
+          "value": 0
+        }
+      ],
+      [
+        {
+          "cell": "B38",
+          "value": "2.1.1"
+        },
+        {
+          "cell": "C38",
+          "value": "Pekerjaan Bouwplank, Wood Stiffener, Titik Koordinat, dan Leveling Survey Area "
+        },
+        {
+          "cell": "L38",
+          "value": 128.0
+        },
+        {
+          "cell": "M38",
+          "value": "m'"
+        },
+        {
+          "cell": "N38",
+          "value": 130000.0
+        },
+        {
+          "cell": "O38",
+          "value": 35000.0
+        },
+        {
+          "cell": "P38",
+          "value": 16640000
+        },
+        {
+          "cell": "Q38",
+          "value": 4480000
+        },
+        {
+          "cell": "R38",
+          "value": 21120000
+        },
+        {
+          "cell": "S38",
+          "value": 0.7517470296
+        }
+      ],
+      [
+        {
+          "cell": "B39",
+          "value": "2.1.2"
+        },
+        {
+          "cell": "C39",
+          "value": "Pekerjaan Pembongkaran Warehouse Eksisting include Pembuangan Material Sisa "
+        },
+        {
+          "cell": "L39",
+          "value": 1.0
+        },
+        {
+          "cell": "M39",
+          "value": "Ls"
+        },
+        {
+          "cell": "N39",
+          "value": 0.0
+        },
+        {
+          "cell": "O39",
+          "value": 25000000.0
+        },
+        {
+          "cell": "P39",
+          "value": 0
+        },
+        {
+          "cell": "Q39",
+          "value": 25000000
+        },
+        {
+          "cell": "R39",
+          "value": 25000000
+        },
+        {
+          "cell": "S39",
+          "value": 0.889852071
+        }
+      ],
+      [
+        {
+          "cell": "B40",
+          "value": "2.1.3"
+        },
+        {
+          "cell": "C40",
+          "value": "Pekerjaan Pondasi "
+        },
+        {
+          "cell": "N40",
+          "value": ""
+        },
+        {
+          "cell": "O40",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B41",
+          "value": "2.1.3.1"
+        },
+        {
+          "cell": "C41",
+          "value": "Pekerjaan Galian Tanah "
+        },
+        {
+          "cell": "L41",
+          "value": 64.08000000000001
+        },
+        {
+          "cell": "M41",
+          "value": "m³"
+        },
+        {
+          "cell": "N41",
+          "value": 0.0
+        },
+        {
+          "cell": "O41",
+          "value": 65000.0
+        },
+        {
+          "cell": "P41",
+          "value": 0
+        },
+        {
+          "cell": "Q41",
+          "value": 4165200
+        },
+        {
+          "cell": "R41",
+          "value": 4165200
+        },
+        {
+          "cell": "S41",
+          "value": 0.1482564738
+        }
+      ],
+      [
+        {
+          "cell": "B42",
+          "value": "2.1.3.2"
+        },
+        {
+          "cell": "C42",
+          "value": "Urugan Tanah Kembali dan dipadatkan"
+        },
+        {
+          "cell": "L42",
+          "value": 50.22000000000001
+        },
+        {
+          "cell": "M42",
+          "value": "m³"
+        },
+        {
+          "cell": "N42",
+          "value": 0.0
+        },
+        {
+          "cell": "O42",
+          "value": 50000.0
+        },
+        {
+          "cell": "P42",
+          "value": 0
+        },
+        {
+          "cell": "Q42",
+          "value": 2511000
+        },
+        {
+          "cell": "R42",
+          "value": 2511000
+        },
+        {
+          "cell": "S42",
+          "value": 0.08937674201
+        }
+      ],
+      [
+        {
+          "cell": "B43",
+          "value": "2.1.3.3"
+        },
+        {
+          "cell": "C43",
+          "value": "Pembuangan Galian Tanah ke lokasi yang ditunjuk oleh pengawas"
+        },
+        {
+          "cell": "L43",
+          "value": 13.86
+        },
+        {
+          "cell": "M43",
+          "value": "m³"
+        },
+        {
+          "cell": "N43",
+          "value": 0.0
+        },
+        {
+          "cell": "O43",
+          "value": 87500.0
+        },
+        {
+          "cell": "P43",
+          "value": 0
+        },
+        {
+          "cell": "Q43",
+          "value": 1212750
+        },
+        {
+          "cell": "R43",
+          "value": 1212750
+        },
+        {
+          "cell": "S43",
+          "value": 0.04316672396
+        }
+      ],
+      [
+        {
+          "cell": "B44",
+          "value": "2.1.3.4"
+        },
+        {
+          "cell": "C44",
+          "value": "Urugan pasir dan dipadatkan, tebal : 10 cm"
+        },
+        {
+          "cell": "L44",
+          "value": 4.272000000000001
+        },
+        {
+          "cell": "M44",
+          "value": "m³"
+        },
+        {
+          "cell": "N44",
+          "value": 450000.0
+        },
+        {
+          "cell": "O44",
+          "value": 55000.0
+        },
+        {
+          "cell": "P44",
+          "value": 1922400
+        },
+        {
+          "cell": "Q44",
+          "value": 234960
+        },
+        {
+          "cell": "R44",
+          "value": 2157360
+        },
+        {
+          "cell": "S44",
+          "value": 0.07678925055
+        }
+      ],
+      [
+        {
+          "cell": "B45",
+          "value": "2.1.3.5"
+        },
+        {
+          "cell": "C45",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L45",
+          "value": 61.2
+        },
+        {
+          "cell": "M45",
+          "value": "m²"
+        },
+        {
+          "cell": "N45",
+          "value": 135000.0
+        },
+        {
+          "cell": "O45",
+          "value": 41500.0
+        },
+        {
+          "cell": "P45",
+          "value": 8262000
+        },
+        {
+          "cell": "Q45",
+          "value": 2539800
+        },
+        {
+          "cell": "R45",
+          "value": 10801800
+        },
+        {
+          "cell": "S45",
+          "value": 0.384480164
+        }
+      ],
+      [
+        {
+          "cell": "B46",
+          "value": "2.1.3.6"
+        },
+        {
+          "cell": "C46",
+          "value": "Cor Lantai Kerja Beton Mutu K-175 tebal : 5 cm"
+        },
+        {
+          "cell": "L46",
+          "value": 2.1360000000000006
+        },
+        {
+          "cell": "M46",
+          "value": "m³"
+        },
+        {
+          "cell": "N46",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O46",
+          "value": 215000.0
+        },
+        {
+          "cell": "P46",
+          "value": 3310800
+        },
+        {
+          "cell": "Q46",
+          "value": 459240
+        },
+        {
+          "cell": "R46",
+          "value": 3770040
+        },
+        {
+          "cell": "S46",
+          "value": 0.1341911161
+        }
+      ],
+      [
+        {
+          "cell": "B47",
+          "value": "2.1.3.7"
+        },
+        {
+          "cell": "C47",
+          "value": "Cor beton mutu K-275 untuk pondasi"
+        },
+        {
+          "cell": "L47",
+          "value": 13.86
+        },
+        {
+          "cell": "M47",
+          "value": "m³"
+        },
+        {
+          "cell": "N47",
+          "value": 1650000.0
+        },
+        {
+          "cell": "O47",
+          "value": 250000.0
+        },
+        {
+          "cell": "P47",
+          "value": 22869000
+        },
+        {
+          "cell": "Q47",
+          "value": 3465000
+        },
+        {
+          "cell": "R47",
+          "value": 26334000
+        },
+        {
+          "cell": "S47",
+          "value": 0.9373345775
+        }
+      ],
+      [
+        {
+          "cell": "B48",
+          "value": "2.1.3.8"
+        },
+        {
+          "cell": "C48",
+          "value": "Pembesian Tulangan"
+        },
+        {
+          "cell": "L48",
+          "value": 1609.3583200000003
+        },
+        {
+          "cell": "M48",
+          "value": "kg"
+        },
+        {
+          "cell": "N48",
+          "value": 14500.0
+        },
+        {
+          "cell": "O48",
+          "value": 3500.0
+        },
+        {
+          "cell": "P48",
+          "value": 23335695.64
+        },
+        {
+          "cell": "Q48",
+          "value": 5632754.12
+        },
+        {
+          "cell": "R48",
+          "value": 28968449.76
+        },
+        {
+          "cell": "S48",
+          "value": 1.0311054
+        }
+      ],
+      [
+        {
+          "cell": "B49",
+          "value": "2.1.4"
+        },
+        {
+          "cell": "C49",
+          "value": "Pekerjaan Kolom Pedestal"
+        },
+        {
+          "cell": "N49",
+          "value": ""
+        },
+        {
+          "cell": "O49",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B50",
+          "value": "2.1.4.1"
+        },
+        {
+          "cell": "C50",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L50",
+          "value": 7.56
+        },
+        {
+          "cell": "M50",
+          "value": "m²"
+        },
+        {
+          "cell": "N50",
+          "value": 135000.0
+        },
+        {
+          "cell": "O50",
+          "value": 41500.0
+        },
+        {
+          "cell": "P50",
+          "value": 1020600
+        },
+        {
+          "cell": "Q50",
+          "value": 313740
+        },
+        {
+          "cell": "R50",
+          "value": 1334340
+        },
+        {
+          "cell": "S50",
+          "value": 0.0474946085
+        }
+      ],
+      [
+        {
+          "cell": "B51",
+          "value": "2.1.4.3"
+        },
+        {
+          "cell": "C51",
+          "value": "Cor beton mutu K-275 untuk Kolom Pedestal"
+        },
+        {
+          "cell": "L51",
+          "value": 0.6614999999999999
+        },
+        {
+          "cell": "M51",
+          "value": "m³"
+        },
+        {
+          "cell": "N51",
+          "value": 1650000.0
+        },
+        {
+          "cell": "O51",
+          "value": 250000.0
+        },
+        {
+          "cell": "P51",
+          "value": 1091475
+        },
+        {
+          "cell": "Q51",
+          "value": 165375
+        },
+        {
+          "cell": "R51",
+          "value": 1256850
+        },
+        {
+          "cell": "S51",
+          "value": 0.04473642302
+        }
+      ],
+      [
+        {
+          "cell": "B52",
+          "value": "2.1.4.4"
+        },
+        {
+          "cell": "C52",
+          "value": "Pembesian Tulangan"
+        },
+        {
+          "cell": "L52",
+          "value": 88.38252
+        },
+        {
+          "cell": "M52",
+          "value": "kg"
+        },
+        {
+          "cell": "N52",
+          "value": 14500.0
+        },
+        {
+          "cell": "O52",
+          "value": 3500.0
+        },
+        {
+          "cell": "P52",
+          "value": 1281546.54
+        },
+        {
+          "cell": "Q52",
+          "value": 309338.82
+        },
+        {
+          "cell": "R52",
+          "value": 1590885.36
+        },
+        {
+          "cell": "S52",
+          "value": 0.05662610529
+        }
+      ],
+      [
+        {
+          "cell": "B53",
+          "value": "2.1.5"
+        },
+        {
+          "cell": "C53",
+          "value": "Pekerjaan Sloof / Grade Beam"
+        },
+        {
+          "cell": "N53",
+          "value": ""
+        },
+        {
+          "cell": "O53",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B54",
+          "value": "2.1.5.1"
+        },
+        {
+          "cell": "C54",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L54",
+          "value": 22.0
+        },
+        {
+          "cell": "M54",
+          "value": "m²"
+        },
+        {
+          "cell": "N54",
+          "value": 135000.0
+        },
+        {
+          "cell": "O54",
+          "value": 41500.0
+        },
+        {
+          "cell": "P54",
+          "value": 2970000
+        },
+        {
+          "cell": "Q54",
+          "value": 913000
+        },
+        {
+          "cell": "R54",
+          "value": 3883000
+        },
+        {
+          "cell": "S54",
+          "value": 0.1382118237
+        }
+      ],
+      [
+        {
+          "cell": "B55",
+          "value": "2.1.5.2"
+        },
+        {
+          "cell": "C55",
+          "value": "Cor Lantai Kerja Beton dan Non Struktural Mutu K-175 tebal : 5 cm"
+        },
+        {
+          "cell": "L55",
+          "value": 2.6200000000000006
+        },
+        {
+          "cell": "M55",
+          "value": "m³"
+        },
+        {
+          "cell": "N55",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O55",
+          "value": 215000.0
+        },
+        {
+          "cell": "P55",
+          "value": 4061000
+        },
+        {
+          "cell": "Q55",
+          "value": 563300
+        },
+        {
+          "cell": "R55",
+          "value": 4624300
+        },
+        {
+          "cell": "S55",
+          "value": 0.1645977173
+        }
+      ],
+      [
+        {
+          "cell": "B56",
+          "value": "2.1.5.3"
+        },
+        {
+          "cell": "C56",
+          "value": "Cor beton mutu K-275 untuk sloof"
+        },
+        {
+          "cell": "L56",
+          "value": 15.719999999999999
+        },
+        {
+          "cell": "M56",
+          "value": "m³"
+        },
+        {
+          "cell": "N56",
+          "value": 1650000.0
+        },
+        {
+          "cell": "O56",
+          "value": 250000.0
+        },
+        {
+          "cell": "P56",
+          "value": 25938000
+        },
+        {
+          "cell": "Q56",
+          "value": 3930000
+        },
+        {
+          "cell": "R56",
+          "value": 29868000
+        },
+        {
+          "cell": "S56",
+          "value": 1.063124066
+        }
+      ],
+      [
+        {
+          "cell": "B57",
+          "value": "2.1.5.4"
+        },
+        {
+          "cell": "C57",
+          "value": "Pembesian Tulangan"
+        },
+        {
+          "cell": "L57",
+          "value": 1936.83762
+        },
+        {
+          "cell": "M57",
+          "value": "kg"
+        },
+        {
+          "cell": "N57",
+          "value": 14500.0
+        },
+        {
+          "cell": "O57",
+          "value": 3500.0
+        },
+        {
+          "cell": "P57",
+          "value": 28084145.49
+        },
+        {
+          "cell": "Q57",
+          "value": 6778931.67
+        },
+        {
+          "cell": "R57",
+          "value": 34863077.16
+        },
+        {
+          "cell": "S57",
+          "value": 1.240919256
+        }
+      ],
+      [
+        {
+          "cell": "B58",
+          "value": "2.1.4"
+        },
+        {
+          "cell": "C58",
+          "value": "Pekerjaan Dinding"
+        },
+        {
+          "cell": "N58",
+          "value": ""
+        },
+        {
+          "cell": "O58",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B59",
+          "value": "2.1.4.1"
+        },
+        {
+          "cell": "C59",
+          "value": "Pekerjaan Dinding Bata Merah 1/2 Bata, 1 PC : 3 Psr (Tinggi 3.5 meter)"
+        },
+        {
+          "cell": "L59",
+          "value": 201.255
+        },
+        {
+          "cell": "M59",
+          "value": "m³"
+        },
+        {
+          "cell": "N59",
+          "value": 98500.0
+        },
+        {
+          "cell": "O59",
+          "value": 42500.0
+        },
+        {
+          "cell": "P59",
+          "value": 19823617.5
+        },
+        {
+          "cell": "Q59",
+          "value": 8553337.5
+        },
+        {
+          "cell": "R59",
+          "value": 28376955
+        },
+        {
+          "cell": "S59",
+          "value": 1.010051687
+        }
+      ],
+      [
+        {
+          "cell": "B60",
+          "value": "2.1.4.2"
+        },
+        {
+          "cell": "C60",
+          "value": "Plester Dinding Luar dan Dalam, tebal 20 mm, 1 PC : 3 Psr"
+        },
+        {
+          "cell": "L60",
+          "value": 402.51
+        },
+        {
+          "cell": "M60",
+          "value": "m²"
+        },
+        {
+          "cell": "N60",
+          "value": 75000.0
+        },
+        {
+          "cell": "O60",
+          "value": 35000.0
+        },
+        {
+          "cell": "P60",
+          "value": 30188250
+        },
+        {
+          "cell": "Q60",
+          "value": 14087850
+        },
+        {
+          "cell": "R60",
+          "value": 44276100
+        },
+        {
+          "cell": "S60",
+          "value": 1.575967171
+        }
+      ],
+      [
+        {
+          "cell": "B61",
+          "value": "2.1.4.3"
+        },
+        {
+          "cell": "C61",
+          "value": "Pas. Acian"
+        },
+        {
+          "cell": "L61",
+          "value": 402.51
+        },
+        {
+          "cell": "M61",
+          "value": "m²"
+        },
+        {
+          "cell": "N61",
+          "value": 45000.0
+        },
+        {
+          "cell": "O61",
+          "value": 35000.0
+        },
+        {
+          "cell": "P61",
+          "value": 18112950
+        },
+        {
+          "cell": "Q61",
+          "value": 14087850
+        },
+        {
+          "cell": "R61",
+          "value": 32200800
+        },
+        {
+          "cell": "S61",
+          "value": 1.146157943
+        }
+      ],
+      [
+        {
+          "cell": "B62",
+          "value": "2.1.4.4"
+        },
+        {
+          "cell": "C62",
+          "value": "Zincalume Cladding Sheet 0.4mm (Tinggi 4.5 meter), include coating"
+        },
+        {
+          "cell": "L62",
+          "value": 310.5
+        },
+        {
+          "cell": "M62",
+          "value": "m²"
+        },
+        {
+          "cell": "N62",
+          "value": 215000.0
+        },
+        {
+          "cell": "O62",
+          "value": 70000.0
+        },
+        {
+          "cell": "P62",
+          "value": 66757500
+        },
+        {
+          "cell": "Q62",
+          "value": 21735000
+        },
+        {
+          "cell": "R62",
+          "value": 88492500
+        },
+        {
+          "cell": "S62",
+          "value": 3.149809376
+        }
+      ],
+      [
+        {
+          "cell": "B63",
+          "value": "2.1.4.5"
+        },
+        {
+          "cell": "C63",
+          "value": "Rangka Cladding (Girt CNP 150x50x20x3.2) include Steel Connections"
+        },
+        {
+          "cell": "L63",
+          "value": 1469.2859999999998
+        },
+        {
+          "cell": "M63",
+          "value": "kg"
+        },
+        {
+          "cell": "N63",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O63",
+          "value": 8500.0
+        },
+        {
+          "cell": "P63",
+          "value": 37981043.1
+        },
+        {
+          "cell": "Q63",
+          "value": 12488931
+        },
+        {
+          "cell": "R63",
+          "value": 50469974.1
+        },
+        {
+          "cell": "S63",
+          "value": 1.796432439
+        }
+      ],
+      [
+        {
+          "cell": "B64",
+          "value": "2.1.4.6"
+        },
+        {
+          "cell": "C64",
+          "value": "Sagrod (Bar ø12)"
+        },
+        {
+          "cell": "L64",
+          "value": 253.968
+        },
+        {
+          "cell": "M64",
+          "value": "kg"
+        },
+        {
+          "cell": "N64",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O64",
+          "value": 8500.0
+        },
+        {
+          "cell": "P64",
+          "value": 6565072.8
+        },
+        {
+          "cell": "Q64",
+          "value": 2158728
+        },
+        {
+          "cell": "R64",
+          "value": 8723800.8
+        },
+        {
+          "cell": "S64",
+          "value": 0.3105156883
+        }
+      ],
+      [
+        {
+          "cell": "B65",
+          "value": "2.1.5"
+        },
+        {
+          "cell": "C65",
+          "value": "Pekerjaan Pintu dan Jendela"
+        },
+        {
+          "cell": "N65",
+          "value": ""
+        },
+        {
+          "cell": "O65",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B66",
+          "value": "2.1.5.1"
+        },
+        {
+          "cell": "C66",
+          "value": "Pintu Double Aluminium uk.  150 cm (lebar) x 210 cm (tinggi) (inl. Parts dan Accessories) untuk Warehouse Equipment"
+        },
+        {
+          "cell": "L66",
+          "value": 1.0
+        },
+        {
+          "cell": "M66",
+          "value": "set"
+        },
+        {
+          "cell": "N66",
+          "value": 15000000.0
+        },
+        {
+          "cell": "O66",
+          "value": 3500000.0
+        },
+        {
+          "cell": "P66",
+          "value": 15000000
+        },
+        {
+          "cell": "Q66",
+          "value": 3500000
+        },
+        {
+          "cell": "R66",
+          "value": 18500000
+        },
+        {
+          "cell": "S66",
+          "value": 0.6584905325
+        }
+      ],
+      [
+        {
+          "cell": "B67",
+          "value": "2.1.5.2"
+        },
+        {
+          "cell": "C67",
+          "value": "Pintu Double Aluminium uk.  150 cm (lebar) x 210 cm (tinggi) (inl. Parts dan Accessories) untuk Warehouse Lubricants"
+        },
+        {
+          "cell": "L67",
+          "value": 1.0
+        },
+        {
+          "cell": "M67",
+          "value": "set"
+        },
+        {
+          "cell": "N67",
+          "value": 15000000.0
+        },
+        {
+          "cell": "O67",
+          "value": 3500000.0
+        },
+        {
+          "cell": "P67",
+          "value": 15000000
+        },
+        {
+          "cell": "Q67",
+          "value": 3500000
+        },
+        {
+          "cell": "R67",
+          "value": 18500000
+        },
+        {
+          "cell": "S67",
+          "value": 0.6584905325
+        }
+      ],
+      [
+        {
+          "cell": "B68",
+          "value": "2.1.5.3"
+        },
+        {
+          "cell": "C68",
+          "value": "Pintu Double Aluminium uk.  150 cm (lebar) x 210 cm (tinggi) (incl. Stiker Sandblast, Floor Hinge, Handle, dan Accessories) untuk Warehouse Documents"
+        },
+        {
+          "cell": "L68",
+          "value": 1.0
+        },
+        {
+          "cell": "M68",
+          "value": "set"
+        },
+        {
+          "cell": "N68",
+          "value": 17200000.0
+        },
+        {
+          "cell": "O68",
+          "value": 4100000.0
+        },
+        {
+          "cell": "P68",
+          "value": 17200000
+        },
+        {
+          "cell": "Q68",
+          "value": 4100000
+        },
+        {
+          "cell": "R68",
+          "value": 21300000
+        },
+        {
+          "cell": "S68",
+          "value": 0.7581539645
+        }
+      ],
+      [
+        {
+          "cell": "B69",
+          "value": "2.1.5.4"
+        },
+        {
+          "cell": "C69",
+          "value": "Pintu Single Aluminium uk. 210 x 90 cm (incl. Stiker Sandblast, Floor Hinge, Handle, dan Accessories) untuk Warehouse Sample Avtur"
+        },
+        {
+          "cell": "L69",
+          "value": 2.0
+        },
+        {
+          "cell": "M69",
+          "value": "set"
+        },
+        {
+          "cell": "N69",
+          "value": 8900000.0
+        },
+        {
+          "cell": "O69",
+          "value": 1900000.0
+        },
+        {
+          "cell": "P69",
+          "value": 17800000
+        },
+        {
+          "cell": "Q69",
+          "value": 3800000
+        },
+        {
+          "cell": "R69",
+          "value": 21600000
+        },
+        {
+          "cell": "S69",
+          "value": 0.7688321893
+        }
+      ],
+      [
+        {
+          "cell": "B70",
+          "value": "2.1.5.5"
+        },
+        {
+          "cell": "C70",
+          "value": "Jendela uk. 130 x 60 cm; (Incl Kusen Alumunium, Casement  dan Accessories)"
+        },
+        {
+          "cell": "L70",
+          "value": 10.0
+        },
+        {
+          "cell": "M70",
+          "value": "set"
+        },
+        {
+          "cell": "N70",
+          "value": 7500000.0
+        },
+        {
+          "cell": "O70",
+          "value": 1500000.0
+        },
+        {
+          "cell": "P70",
+          "value": 75000000
+        },
+        {
+          "cell": "Q70",
+          "value": 15000000
+        },
+        {
+          "cell": "R70",
+          "value": 90000000
+        },
+        {
+          "cell": "S70",
+          "value": 3.203467456
+        }
+      ],
+      [
+        {
+          "cell": "B71",
+          "value": "2.1.6"
+        },
+        {
+          "cell": "C71",
+          "value": "Pekerjaan Lantai "
+        },
+        {
+          "cell": "N71",
+          "value": ""
+        },
+        {
+          "cell": "O71",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B72",
+          "value": "2.1.6.1"
+        },
+        {
+          "cell": "C72",
+          "value": "Urugan pasir dan dipadatkan, tebal : 10 cm"
+        },
+        {
+          "cell": "L72",
+          "value": 12.734
+        },
+        {
+          "cell": "M72",
+          "value": "m³"
+        },
+        {
+          "cell": "N72",
+          "value": 450000.0
+        },
+        {
+          "cell": "O72",
+          "value": 55000.0
+        },
+        {
+          "cell": "P72",
+          "value": 5730300
+        },
+        {
+          "cell": "Q72",
+          "value": 700370
+        },
+        {
+          "cell": "R72",
+          "value": 6430670
+        },
+        {
+          "cell": "S72",
+          "value": 0.2288938007
+        }
+      ],
+      [
+        {
+          "cell": "B73",
+          "value": "2.1.6.2"
+        },
+        {
+          "cell": "C73",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L73",
+          "value": 7.775999999999999
+        },
+        {
+          "cell": "M73",
+          "value": "m²"
+        },
+        {
+          "cell": "N73",
+          "value": 135000.0
+        },
+        {
+          "cell": "O73",
+          "value": 41500.0
+        },
+        {
+          "cell": "P73",
+          "value": 1049760
+        },
+        {
+          "cell": "Q73",
+          "value": 322704
+        },
+        {
+          "cell": "R73",
+          "value": 1372464
+        },
+        {
+          "cell": "S73",
+          "value": 0.04885159731
+        }
+      ],
+      [
+        {
+          "cell": "B74",
+          "value": "2.1.6.3"
+        },
+        {
+          "cell": "C74",
+          "value": "Cor beton mutu K-275 untuk Slab on Ground"
+        },
+        {
+          "cell": "L74",
+          "value": 15.2808
+        },
+        {
+          "cell": "M74",
+          "value": "m³"
+        },
+        {
+          "cell": "N74",
+          "value": 1650000.0
+        },
+        {
+          "cell": "O74",
+          "value": 250000.0
+        },
+        {
+          "cell": "P74",
+          "value": 25213320
+        },
+        {
+          "cell": "Q74",
+          "value": 3820200
+        },
+        {
+          "cell": "R74",
+          "value": 29033520
+        },
+        {
+          "cell": "S74",
+          "value": 1.033421516
+        }
+      ],
+      [
+        {
+          "cell": "B75",
+          "value": "2.1.6.4"
+        },
+        {
+          "cell": "C75",
+          "value": "Wiremesh M10x150x150 Double Layer"
+        },
+        {
+          "cell": "L75",
+          "value": 965.4999999999999
+        },
+        {
+          "cell": "M75",
+          "value": "kg"
+        },
+        {
+          "cell": "N75",
+          "value": 14500.0
+        },
+        {
+          "cell": "O75",
+          "value": 3500.0
+        },
+        {
+          "cell": "P75",
+          "value": 13999750
+        },
+        {
+          "cell": "Q75",
+          "value": 3379250
+        },
+        {
+          "cell": "R75",
+          "value": 17379000
+        },
+        {
+          "cell": "S75",
+          "value": 0.6185895657
+        }
+      ],
+      [
+        {
+          "cell": "B76",
+          "value": "2.1.6.5"
+        },
+        {
+          "cell": "C76",
+          "value": "Concrete floor finish (with floor hardener) - Area Workshop + Spec General"
+        },
+        {
+          "cell": "L76",
+          "value": 110.0
+        },
+        {
+          "cell": "M76",
+          "value": "m²"
+        },
+        {
+          "cell": "N76",
+          "value": 250000.0
+        },
+        {
+          "cell": "O76",
+          "value": 95000.0
+        },
+        {
+          "cell": "P76",
+          "value": 27500000
+        },
+        {
+          "cell": "Q76",
+          "value": 10450000
+        },
+        {
+          "cell": "R76",
+          "value": 37950000
+        },
+        {
+          "cell": "S76",
+          "value": 1.350795444
+        }
+      ],
+      [
+        {
+          "cell": "B77",
+          "value": "2.1.7"
+        },
+        {
+          "cell": "C77",
+          "value": "Pekerjaan Pengecatan dan Waterproofing"
+        },
+        {
+          "cell": "N77",
+          "value": ""
+        },
+        {
+          "cell": "O77",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B78",
+          "value": "2.1.7.1"
+        },
+        {
+          "cell": "C78",
+          "value": "Pengecatan Dinding Bata Bagian Dalam Seluruh Area (1 lapis plamir, 1 lapis cat dasar, 2 lapis cat penutup)"
+        },
+        {
+          "cell": "L78",
+          "value": 201.255
+        },
+        {
+          "cell": "M78",
+          "value": "m²"
+        },
+        {
+          "cell": "N78",
+          "value": 35000.0
+        },
+        {
+          "cell": "O78",
+          "value": 15000.0
+        },
+        {
+          "cell": "P78",
+          "value": 7043925
+        },
+        {
+          "cell": "Q78",
+          "value": 3018825
+        },
+        {
+          "cell": "R78",
+          "value": 10062750
+        },
+        {
+          "cell": "S78",
+          "value": 0.3581743571
+        }
+      ],
+      [
+        {
+          "cell": "B79",
+          "value": "2.1.7.2"
+        },
+        {
+          "cell": "C79",
+          "value": "Pengecatan Dinding Bata Bagian Luar Seluruh Area (1 lapis plamir, 1 lapis cat dasar, 2 lapis cat penutup waterproof)"
+        },
+        {
+          "cell": "L79",
+          "value": 221.3805
+        },
+        {
+          "cell": "M79",
+          "value": "m²"
+        },
+        {
+          "cell": "N79",
+          "value": 41000.0
+        },
+        {
+          "cell": "O79",
+          "value": 15000.0
+        },
+        {
+          "cell": "P79",
+          "value": 9076600.5
+        },
+        {
+          "cell": "Q79",
+          "value": 3320707.5
+        },
+        {
+          "cell": "R79",
+          "value": 12397308
+        },
+        {
+          "cell": "S79",
+          "value": 0.4412708079
+        }
+      ],
+      [
+        {
+          "cell": "B80",
+          "value": "2.1.7.3"
+        },
+        {
+          "cell": "C80",
+          "value": "Surface Preparation with Power Tools St. 3 / SP3"
+        },
+        {
+          "cell": "L80",
+          "value": 204.70949999999996
+        },
+        {
+          "cell": "M80",
+          "value": "m2"
+        },
+        {
+          "cell": "N80",
+          "value": 0.0
+        },
+        {
+          "cell": "O80",
+          "value": 13000.0
+        },
+        {
+          "cell": "P80",
+          "value": 0
+        },
+        {
+          "cell": "Q80",
+          "value": 2661223.5
+        },
+        {
+          "cell": "R80",
+          "value": 2661223.5
+        },
+        {
+          "cell": "S80",
+          "value": 0.09472380971
+        }
+      ],
+      [
+        {
+          "cell": "B81",
+          "value": "2.1.7.4"
+        },
+        {
+          "cell": "C81",
+          "value": "Pengecatan / Coating Baja Struktural WF"
+        },
+        {
+          "cell": "L81",
+          "value": 204.70949999999996
+        },
+        {
+          "cell": "M81",
+          "value": "m²"
+        },
+        {
+          "cell": "N81",
+          "value": 215000.0
+        },
+        {
+          "cell": "O81",
+          "value": 72000.0
+        },
+        {
+          "cell": "P81",
+          "value": 44012542.5
+        },
+        {
+          "cell": "Q81",
+          "value": 14739084
+        },
+        {
+          "cell": "R81",
+          "value": 58751626.5
+        },
+        {
+          "cell": "S81",
+          "value": 2.091210261
+        }
+      ],
+      [
+        {
+          "cell": "C82",
+          "value": "High Build-High Solid Surface Tolerant Epoxy Primer Coat, DFT 125 µ incl thinner"
+        },
+        {
+          "cell": "N82",
+          "value": ""
+        },
+        {
+          "cell": "O82",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C83",
+          "value": "High Build-High Solid Surface Tolerant Epoxy Second Coat, DFT 125 µ incl thinner"
+        },
+        {
+          "cell": "N83",
+          "value": ""
+        },
+        {
+          "cell": "O83",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C84",
+          "value": "Polyurethane Top Coat, DFT 50 µ incl thinner"
+        },
+        {
+          "cell": "N84",
+          "value": ""
+        },
+        {
+          "cell": "O84",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B85",
+          "value": "2.1.8"
+        },
+        {
+          "cell": "C85",
+          "value": "Pekerjaan Struktur Baja termasuk dengan baut dan aksesoris"
+        },
+        {
+          "cell": "N85",
+          "value": ""
+        },
+        {
+          "cell": "O85",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C86",
+          "value": "- Catatan: Semua Baja Struktural menggunakan ASTM A36 atau JIS G3101-SS400 atau yang setara dengan tegangan leleh minimal 2.400 kg/cm2 (36.000 psi)"
+        },
+        {
+          "cell": "N86",
+          "value": ""
+        },
+        {
+          "cell": "O86",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B87",
+          "value": "2.1.8.1"
+        },
+        {
+          "cell": "C87",
+          "value": "Column C1 (WF 200x200x8x12) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L87",
+          "value": 8327.97567
+        },
+        {
+          "cell": "M87",
+          "value": "kg"
+        },
+        {
+          "cell": "N87",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O87",
+          "value": 8500.0
+        },
+        {
+          "cell": "P87",
+          "value": 215278171.1
+        },
+        {
+          "cell": "Q87",
+          "value": 70787793.2
+        },
+        {
+          "cell": "R87",
+          "value": 286065964.3
+        },
+        {
+          "cell": "S87",
+          "value": 10.18225563
+        }
+      ],
+      [
+        {
+          "cell": "B88",
+          "value": "2.1.8.2"
+        },
+        {
+          "cell": "C88",
+          "value": "Sub-Column SC1 (WF 100x100x6x8) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L88",
+          "value": 151.70399999999998
+        },
+        {
+          "cell": "M88",
+          "value": "kg"
+        },
+        {
+          "cell": "N88",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O88",
+          "value": 8500.0
+        },
+        {
+          "cell": "P88",
+          "value": 3921548.4
+        },
+        {
+          "cell": "Q88",
+          "value": 1289484
+        },
+        {
+          "cell": "R88",
+          "value": 5211032.4
+        },
+        {
+          "cell": "S88",
+          "value": 0.1854819189
+        }
+      ],
+      [
+        {
+          "cell": "B89",
+          "value": "2.1.8.3"
+        },
+        {
+          "cell": "C89",
+          "value": "Beam B1 (WF 200x100x5,5x8) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L89",
+          "value": 3313.128
+        },
+        {
+          "cell": "M89",
+          "value": "kg"
+        },
+        {
+          "cell": "N89",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O89",
+          "value": 8500.0
+        },
+        {
+          "cell": "P89",
+          "value": 85644358.8
+        },
+        {
+          "cell": "Q89",
+          "value": 28161588
+        },
+        {
+          "cell": "R89",
+          "value": 113805946.8
+        },
+        {
+          "cell": "S89",
+          "value": 4.050818298
+        }
+      ],
+      [
+        {
+          "cell": "B90",
+          "value": "2.1.8.4"
+        },
+        {
+          "cell": "C90",
+          "value": "Beam B2 (WF 250x125x6x9) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L90",
+          "value": 155.4
+        },
+        {
+          "cell": "M90",
+          "value": "kg"
+        },
+        {
+          "cell": "N90",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O90",
+          "value": 8500.0
+        },
+        {
+          "cell": "P90",
+          "value": 4017090
+        },
+        {
+          "cell": "Q90",
+          "value": 1320900
+        },
+        {
+          "cell": "R90",
+          "value": 5337990
+        },
+        {
+          "cell": "S90",
+          "value": 0.1900008583
+        }
+      ],
+      [
+        {
+          "cell": "B91",
+          "value": "2.1.8.5"
+        },
+        {
+          "cell": "C91",
+          "value": "Bracing BR1 (L 60x60x4) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L91",
+          "value": 166.92480000000003
+        },
+        {
+          "cell": "M91",
+          "value": "kg"
+        },
+        {
+          "cell": "N91",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O91",
+          "value": 8500.0
+        },
+        {
+          "cell": "P91",
+          "value": 4315006.08
+        },
+        {
+          "cell": "Q91",
+          "value": 1418860.8
+        },
+        {
+          "cell": "R91",
+          "value": 5733866.88
+        },
+        {
+          "cell": "S91",
+          "value": 0.2040917327
+        }
+      ],
+      [
+        {
+          "cell": "B92",
+          "value": "2.1.8.6"
+        },
+        {
+          "cell": "C92",
+          "value": "Rafter R1 (WF 200x100x5,5x8) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L92",
+          "value": 1813.266
+        },
+        {
+          "cell": "M92",
+          "value": "kg"
+        },
+        {
+          "cell": "N92",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O92",
+          "value": 8500.0
+        },
+        {
+          "cell": "P92",
+          "value": 46872926.1
+        },
+        {
+          "cell": "Q92",
+          "value": 15412761
+        },
+        {
+          "cell": "R92",
+          "value": 62285687.1
+        },
+        {
+          "cell": "S92",
+          "value": 2.217001906
+        }
+      ],
+      [
+        {
+          "cell": "B93",
+          "value": "2.1.8.7"
+        },
+        {
+          "cell": "C93",
+          "value": "Purlin / Girt Lipped Channel (LC 150x65x20x3.2) include Steel Connections (Baseplate, Bolt, Nut, Etc.)"
+        },
+        {
+          "cell": "L93",
+          "value": 851.76
+        },
+        {
+          "cell": "M93",
+          "value": "kg"
+        },
+        {
+          "cell": "N93",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O93",
+          "value": 8500.0
+        },
+        {
+          "cell": "P93",
+          "value": 22017996
+        },
+        {
+          "cell": "Q93",
+          "value": 7239960
+        },
+        {
+          "cell": "R93",
+          "value": 29257956
+        },
+        {
+          "cell": "S93",
+          "value": 1.04141011
+        }
+      ],
+      [
+        {
+          "cell": "B94",
+          "value": "2.1.8.8"
+        },
+        {
+          "cell": "C94",
+          "value": "Sagrod Round Bar Ø12 include Steel Connections"
+        },
+        {
+          "cell": "L94",
+          "value": 278.7876
+        },
+        {
+          "cell": "M94",
+          "value": "kg"
+        },
+        {
+          "cell": "N94",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O94",
+          "value": 8500.0
+        },
+        {
+          "cell": "P94",
+          "value": 7206659.46
+        },
+        {
+          "cell": "Q94",
+          "value": 2369694.6
+        },
+        {
+          "cell": "R94",
+          "value": 9576354.06
+        },
+        {
+          "cell": "S94",
+          "value": 0.3408615397
+        }
+      ],
+      [
+        {
+          "cell": "B95",
+          "value": "2.1.8.9"
+        },
+        {
+          "cell": "C95",
+          "value": "Wind Bracing Tie Rod Ø16 include Steel Connections and Turnbuckle"
+        },
+        {
+          "cell": "L95",
+          "value": 224.277984
+        },
+        {
+          "cell": "M95",
+          "value": "kg"
+        },
+        {
+          "cell": "N95",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O95",
+          "value": 8500.0
+        },
+        {
+          "cell": "P95",
+          "value": 5797585.886
+        },
+        {
+          "cell": "Q95",
+          "value": 1906362.864
+        },
+        {
+          "cell": "R95",
+          "value": 7703948.75
+        },
+        {
+          "cell": "S95",
+          "value": 0.27421499
+        }
+      ],
+      [
+        {
+          "cell": "B96",
+          "value": "2.1.9"
+        },
+        {
+          "cell": "C96",
+          "value": "Pekerjaan Penutup Atap dan Aksesoris"
+        },
+        {
+          "cell": "N96",
+          "value": ""
+        },
+        {
+          "cell": "O96",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B97",
+          "value": "2.1.9.1"
+        },
+        {
+          "cell": "C97",
+          "value": "Main Roof corrugated metal sheet (Tebal 0.45 mm)"
+        },
+        {
+          "cell": "L97",
+          "value": 315.09999999999997
+        },
+        {
+          "cell": "M97",
+          "value": "m²"
+        },
+        {
+          "cell": "N97",
+          "value": 215000.0
+        },
+        {
+          "cell": "O97",
+          "value": 70000.0
+        },
+        {
+          "cell": "P97",
+          "value": 67746500
+        },
+        {
+          "cell": "Q97",
+          "value": 22057000
+        },
+        {
+          "cell": "R97",
+          "value": 89803500
+        },
+        {
+          "cell": "S97",
+          "value": 3.196473218
+        }
+      ],
+      [
+        {
+          "cell": "B98",
+          "value": "2.1.10"
+        },
+        {
+          "cell": "C98",
+          "value": "Pekerjaan Talang Air "
+        },
+        {
+          "cell": "N98",
+          "value": ""
+        },
+        {
+          "cell": "O98",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B99",
+          "value": "2.1.10.1"
+        },
+        {
+          "cell": "C99",
+          "value": "Talang Air - Metal Sheet Galvalume type"
+        },
+        {
+          "cell": "L99",
+          "value": 22.0
+        },
+        {
+          "cell": "M99",
+          "value": "m'"
+        },
+        {
+          "cell": "N99",
+          "value": 350000.0
+        },
+        {
+          "cell": "O99",
+          "value": 120000.0
+        },
+        {
+          "cell": "P99",
+          "value": 7700000
+        },
+        {
+          "cell": "Q99",
+          "value": 2640000
+        },
+        {
+          "cell": "R99",
+          "value": 10340000
+        },
+        {
+          "cell": "S99",
+          "value": 0.3680428166
+        }
+      ],
+      [
+        {
+          "cell": "B100",
+          "value": "2.1.10.2"
+        },
+        {
+          "cell": "C100",
+          "value": "Frame Talang Air SHS 70x70x2.5"
+        },
+        {
+          "cell": "L100",
+          "value": 35.156
+        },
+        {
+          "cell": "M100",
+          "value": "kg"
+        },
+        {
+          "cell": "N100",
+          "value": 25850.000000000004
+        },
+        {
+          "cell": "O100",
+          "value": 8500.0
+        },
+        {
+          "cell": "P100",
+          "value": 908782.6
+        },
+        {
+          "cell": "Q100",
+          "value": 298826
+        },
+        {
+          "cell": "R100",
+          "value": 1207608.6
+        },
+        {
+          "cell": "S100",
+          "value": 0.04298372055
+        }
+      ],
+      [
+        {
+          "cell": "B101",
+          "value": "2.1.10.3"
+        },
+        {
+          "cell": "C101",
+          "value": "Pipa Drain PVC Ø 6\" include clamps"
+        },
+        {
+          "cell": "L101",
+          "value": 20.49
+        },
+        {
+          "cell": "M101",
+          "value": "m'"
+        },
+        {
+          "cell": "N101",
+          "value": 420000.0
+        },
+        {
+          "cell": "O101",
+          "value": 130000.0
+        },
+        {
+          "cell": "P101",
+          "value": 8605800
+        },
+        {
+          "cell": "Q101",
+          "value": 2663700
+        },
+        {
+          "cell": "R101",
+          "value": 11269500
+        },
+        {
+          "cell": "S101",
+          "value": 0.4011275166
+        }
+      ],
+      [
+        {
+          "cell": "B102",
+          "value": "2.1.10.4"
+        },
+        {
+          "cell": "C102",
+          "value": "Roof Drain Filter SS Material untuk Talang Air uk. 6\" termasuk aksesoris"
+        },
+        {
+          "cell": "L102",
+          "value": 2.0
+        },
+        {
+          "cell": "M102",
+          "value": "bh"
+        },
+        {
+          "cell": "N102",
+          "value": 500000.0
+        },
+        {
+          "cell": "O102",
+          "value": 200000.0
+        },
+        {
+          "cell": "P102",
+          "value": 1000000
+        },
+        {
+          "cell": "Q102",
+          "value": 400000
+        },
+        {
+          "cell": "R102",
+          "value": 1400000
+        },
+        {
+          "cell": "S102",
+          "value": 0.04983171597
+        }
+      ],
+      [
+        {
+          "cell": "N103",
+          "value": ""
+        },
+        {
+          "cell": "O103",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A104",
+          "value": "2.2"
+        },
+        {
+          "cell": "B104",
+          "value": "Pekerjaan Revitalisasi Tank Yard"
+        }
+      ],
+      [
+        {
+          "cell": "B105",
+          "value": "2.1.6"
+        },
+        {
+          "cell": "C105",
+          "value": "Pekerjaan Tank Yard Pavement Tangki T-10"
+        }
+      ],
+      [
+        {
+          "cell": "B106",
+          "value": "2.1.6.1"
+        },
+        {
+          "cell": "C106",
+          "value": "Pekerjaan Galian Tanah "
+        },
+        {
+          "cell": "L106",
+          "value": 176.78605362375697
+        },
+        {
+          "cell": "M106",
+          "value": "m³"
+        },
+        {
+          "cell": "N106",
+          "value": 0.0
+        },
+        {
+          "cell": "O106",
+          "value": 65000.0
+        },
+        {
+          "cell": "P106",
+          "value": 0
+        },
+        {
+          "cell": "Q106",
+          "value": 11491093.49
+        },
+        {
+          "cell": "R106",
+          "value": 11491093.49
+        },
+        {
+          "cell": "S106",
+          "value": 0.4090149334
+        }
+      ],
+      [
+        {
+          "cell": "B107",
+          "value": "2.1.6.2"
+        },
+        {
+          "cell": "C107",
+          "value": "Urugan Tanah Kembali dan dipadatkan"
+        },
+        {
+          "cell": "L107",
+          "value": 109.586053623757
+        },
+        {
+          "cell": "M107",
+          "value": "m³"
+        },
+        {
+          "cell": "N107",
+          "value": 0.0
+        },
+        {
+          "cell": "O107",
+          "value": 50000.0
+        },
+        {
+          "cell": "P107",
+          "value": 0
+        },
+        {
+          "cell": "Q107",
+          "value": 5479302.681
+        },
+        {
+          "cell": "R107",
+          "value": 5479302.681
+        },
+        {
+          "cell": "S107",
+          "value": 0.1950307535
+        }
+      ],
+      [
+        {
+          "cell": "B108",
+          "value": "2.1.6.3"
+        },
+        {
+          "cell": "C108",
+          "value": "Pembuangan Galian Tanah ke lokasi yang ditunjuk oleh pengawas"
+        },
+        {
+          "cell": "L108",
+          "value": 129.74605362375698
+        },
+        {
+          "cell": "M108",
+          "value": "m³"
+        },
+        {
+          "cell": "N108",
+          "value": 0.0
+        },
+        {
+          "cell": "O108",
+          "value": 87500.0
+        },
+        {
+          "cell": "P108",
+          "value": 0
+        },
+        {
+          "cell": "Q108",
+          "value": 11352779.69
+        },
+        {
+          "cell": "R108",
+          "value": 11352779.69
+        },
+        {
+          "cell": "S108",
+          "value": 0.4040917808
+        }
+      ],
+      [
+        {
+          "cell": "B109",
+          "value": "2.1.6.4"
+        },
+        {
+          "cell": "C109",
+          "value": "Urugan pasir dan dipadatkan, tebal : 10 cm"
+        },
+        {
+          "cell": "L109",
+          "value": 36.52868454125234
+        },
+        {
+          "cell": "M109",
+          "value": "m³"
+        },
+        {
+          "cell": "N109",
+          "value": 450000.0
+        },
+        {
+          "cell": "O109",
+          "value": 55000.0
+        },
+        {
+          "cell": "P109",
+          "value": 16437908.04
+        },
+        {
+          "cell": "Q109",
+          "value": 2009077.65
+        },
+        {
+          "cell": "R109",
+          "value": 18446985.69
+        },
+        {
+          "cell": "S109",
+          "value": 0.6566035369
+        }
+      ],
+      [
+        {
+          "cell": "B110",
+          "value": "2.1.6.6"
+        },
+        {
+          "cell": "C110",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L110",
+          "value": 42.0
+        },
+        {
+          "cell": "M110",
+          "value": "m²"
+        },
+        {
+          "cell": "N110",
+          "value": 135000.0
+        },
+        {
+          "cell": "O110",
+          "value": 41500.0
+        },
+        {
+          "cell": "P110",
+          "value": 5670000
+        },
+        {
+          "cell": "Q110",
+          "value": 1743000
+        },
+        {
+          "cell": "R110",
+          "value": 7413000
+        },
+        {
+          "cell": "S110",
+          "value": 0.2638589361
+        }
+      ],
+      [
+        {
+          "cell": "B111",
+          "value": "2.1.6.7"
+        },
+        {
+          "cell": "C111",
+          "value": "Cor beton mutu K-175 untuk Slab on Ground dan Area Drainase"
+        },
+        {
+          "cell": "L111",
+          "value": 127.85039589438317
+        },
+        {
+          "cell": "M111",
+          "value": "m³"
+        },
+        {
+          "cell": "N111",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O111",
+          "value": 215000.0
+        },
+        {
+          "cell": "P111",
+          "value": 198168113.6
+        },
+        {
+          "cell": "Q111",
+          "value": 27487835.12
+        },
+        {
+          "cell": "R111",
+          "value": 225655948.8
+        },
+        {
+          "cell": "S111",
+          "value": 8.032016533
+        }
+      ],
+      [
+        {
+          "cell": "B112",
+          "value": "2.1.6.9"
+        },
+        {
+          "cell": "C112",
+          "value": "Box Control Beton K-175"
+        },
+        {
+          "cell": "L112",
+          "value": 2.0
+        },
+        {
+          "cell": "M112",
+          "value": "m³"
+        },
+        {
+          "cell": "N112",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O112",
+          "value": 215000.0
+        },
+        {
+          "cell": "P112",
+          "value": 3100000
+        },
+        {
+          "cell": "Q112",
+          "value": 430000
+        },
+        {
+          "cell": "R112",
+          "value": 3530000
+        },
+        {
+          "cell": "S112",
+          "value": 0.1256471124
+        }
+      ],
+      [
+        {
+          "cell": "B113",
+          "value": "2.1.6.10"
+        },
+        {
+          "cell": "C113",
+          "value": "Wiremesh M8x150x150"
+        },
+        {
+          "cell": "L113",
+          "value": 2039.07
+        },
+        {
+          "cell": "M113",
+          "value": "kg"
+        },
+        {
+          "cell": "N113",
+          "value": 14500.0
+        },
+        {
+          "cell": "O113",
+          "value": 3500.0
+        },
+        {
+          "cell": "P113",
+          "value": 29566515
+        },
+        {
+          "cell": "Q113",
+          "value": 7136745
+        },
+        {
+          "cell": "R113",
+          "value": 36703260
+        },
+        {
+          "cell": "S113",
+          "value": 1.306418877
+        }
+      ],
+      [
+        {
+          "cell": "B114",
+          "value": "2.1.7"
+        },
+        {
+          "cell": "C114",
+          "value": "Pekerjaan Tank Yard Pavement Tangki T-11"
+        },
+        {
+          "cell": "N114",
+          "value": ""
+        },
+        {
+          "cell": "O114",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B115",
+          "value": "2.1.6.1"
+        },
+        {
+          "cell": "C115",
+          "value": "Pekerjaan Galian Tanah "
+        },
+        {
+          "cell": "L115",
+          "value": 225.012362563536
+        },
+        {
+          "cell": "M115",
+          "value": "m³"
+        },
+        {
+          "cell": "N115",
+          "value": 0.0
+        },
+        {
+          "cell": "O115",
+          "value": 65000.0
+        },
+        {
+          "cell": "P115",
+          "value": 0
+        },
+        {
+          "cell": "Q115",
+          "value": 14625803.57
+        },
+        {
+          "cell": "R115",
+          "value": 14625803.57
+        },
+        {
+          "cell": "S115",
+          "value": 0.5205920637
+        }
+      ],
+      [
+        {
+          "cell": "B116",
+          "value": "2.1.6.2"
+        },
+        {
+          "cell": "C116",
+          "value": "Urugan Tanah Kembali dan dipadatkan"
+        },
+        {
+          "cell": "L116",
+          "value": 149.412362563536
+        },
+        {
+          "cell": "M116",
+          "value": "m³"
+        },
+        {
+          "cell": "N116",
+          "value": 0.0
+        },
+        {
+          "cell": "O116",
+          "value": 50000.0
+        },
+        {
+          "cell": "P116",
+          "value": 0
+        },
+        {
+          "cell": "Q116",
+          "value": 7470618.128
+        },
+        {
+          "cell": "R116",
+          "value": 7470618.128
+        },
+        {
+          "cell": "S116",
+          "value": 0.2659098005
+        }
+      ],
+      [
+        {
+          "cell": "B117",
+          "value": "2.1.6.3"
+        },
+        {
+          "cell": "C117",
+          "value": "Pembuangan Galian Tanah ke lokasi yang ditunjuk oleh pengawas"
+        },
+        {
+          "cell": "L117",
+          "value": 172.092362563536
+        },
+        {
+          "cell": "M117",
+          "value": "m³"
+        },
+        {
+          "cell": "N117",
+          "value": 0.0
+        },
+        {
+          "cell": "O117",
+          "value": 87500.0
+        },
+        {
+          "cell": "P117",
+          "value": 0
+        },
+        {
+          "cell": "Q117",
+          "value": 15058081.72
+        },
+        {
+          "cell": "R117",
+          "value": 15058081.72
+        },
+        {
+          "cell": "S117",
+          "value": 0.5359786083
+        }
+      ],
+      [
+        {
+          "cell": "B118",
+          "value": "2.1.6.4"
+        },
+        {
+          "cell": "C118",
+          "value": "Urugan pasir dan dipadatkan, tebal : 10 cm"
+        },
+        {
+          "cell": "L118",
+          "value": 49.804120854512
+        },
+        {
+          "cell": "M118",
+          "value": "m³"
+        },
+        {
+          "cell": "N118",
+          "value": 450000.0
+        },
+        {
+          "cell": "O118",
+          "value": 55000.0
+        },
+        {
+          "cell": "P118",
+          "value": 22411854.38
+        },
+        {
+          "cell": "Q118",
+          "value": 2739226.647
+        },
+        {
+          "cell": "R118",
+          "value": 25151081.03
+        },
+        {
+          "cell": "S118",
+          "value": 0.8952296617
+        }
+      ],
+      [
+        {
+          "cell": "B119",
+          "value": "2.1.6.6"
+        },
+        {
+          "cell": "C119",
+          "value": "Bekisting/Form Work"
+        },
+        {
+          "cell": "L119",
+          "value": 45.35999999999999
+        },
+        {
+          "cell": "M119",
+          "value": "m²"
+        },
+        {
+          "cell": "N119",
+          "value": 135000.0
+        },
+        {
+          "cell": "O119",
+          "value": 41500.0
+        },
+        {
+          "cell": "P119",
+          "value": 6123600
+        },
+        {
+          "cell": "Q119",
+          "value": 1882440
+        },
+        {
+          "cell": "R119",
+          "value": 8006040
+        },
+        {
+          "cell": "S119",
+          "value": 0.284967651
+        }
+      ],
+      [
+        {
+          "cell": "B120",
+          "value": "2.1.6.7"
+        },
+        {
+          "cell": "C120",
+          "value": "Cor beton mutu K-175 untuk Slab on Ground dan Area Drainase"
+        },
+        {
+          "cell": "L120",
+          "value": 174.31442299079197
+        },
+        {
+          "cell": "M120",
+          "value": "m³"
+        },
+        {
+          "cell": "N120",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O120",
+          "value": 215000.0
+        },
+        {
+          "cell": "P120",
+          "value": 270187355.6
+        },
+        {
+          "cell": "Q120",
+          "value": 37477600.94
+        },
+        {
+          "cell": "R120",
+          "value": 307664956.6
+        },
+        {
+          "cell": "S120",
+          "value": 10.95105195
+        }
+      ],
+      [
+        {
+          "cell": "B121",
+          "value": "2.1.6.9"
+        },
+        {
+          "cell": "C121",
+          "value": "Box Control Beton K-175"
+        },
+        {
+          "cell": "L121",
+          "value": 2.0
+        },
+        {
+          "cell": "M121",
+          "value": "m³"
+        },
+        {
+          "cell": "N121",
+          "value": 1550000.0
+        },
+        {
+          "cell": "O121",
+          "value": 215000.0
+        },
+        {
+          "cell": "P121",
+          "value": 3100000
+        },
+        {
+          "cell": "Q121",
+          "value": 430000
+        },
+        {
+          "cell": "R121",
+          "value": 3530000
+        },
+        {
+          "cell": "S121",
+          "value": 0.1256471124
+        }
+      ],
+      [
+        {
+          "cell": "B122",
+          "value": "2.1.6.10"
+        },
+        {
+          "cell": "C122",
+          "value": "Wiremesh M8x150x150"
+        },
+        {
+          "cell": "L122",
+          "value": 2718.7599999999998
+        },
+        {
+          "cell": "M122",
+          "value": "kg"
+        },
+        {
+          "cell": "N122",
+          "value": 14500.0
+        },
+        {
+          "cell": "O122",
+          "value": 3500.0
+        },
+        {
+          "cell": "P122",
+          "value": 39422020
+        },
+        {
+          "cell": "Q122",
+          "value": 9515660
+        },
+        {
+          "cell": "R122",
+          "value": 48937680
+        },
+        {
+          "cell": "S122",
+          "value": 1.741891836
+        }
+      ],
+      [
+        {
+          "cell": "N123",
+          "value": ""
+        },
+        {
+          "cell": "O123",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B124",
+          "value": "SUBTOTAL"
+        },
+        {
+          "cell": "P124",
+          "value": 1669061085
+        },
+        {
+          "cell": "Q124",
+          "value": 522394645.2
+        }
+      ],
+      [
+        {
+          "cell": "A126",
+          "value": "III"
+        },
+        {
+          "cell": "B126",
+          "value": "PEKERJAAN  ELEKTRIKAL"
+        }
+      ],
+      [
+        {
+          "cell": "A127",
+          "value": "A"
+        },
+        {
+          "cell": "B127",
+          "value": "Pekerjaan Pengadaan dan Pemasangan Sistem Kelistrikan Warehouse"
+        }
+      ],
+      [
+        {
+          "cell": "A128",
+          "value": "1.1"
+        },
+        {
+          "cell": "B128",
+          "value": "Pengadaan & Pemasangan Kabel Instalasi Listrik Warehouse"
+        },
+        {
+          "cell": "N128",
+          "value": ""
+        },
+        {
+          "cell": "O128",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B129",
+          "value": "-"
+        },
+        {
+          "cell": "C129",
+          "value": "NYY  2C X 10 mm2 (Flame Retardant) from Electrical Source to MCB Box"
+        },
+        {
+          "cell": "L129",
+          "value": 20.0
+        },
+        {
+          "cell": "M129",
+          "value": "m"
+        },
+        {
+          "cell": "N129",
+          "value": 70000.0
+        },
+        {
+          "cell": "O129",
+          "value": 25000.0
+        },
+        {
+          "cell": "P129",
+          "value": 1400000
+        },
+        {
+          "cell": "Q129",
+          "value": 500000
+        },
+        {
+          "cell": "R129",
+          "value": 1900000
+        },
+        {
+          "cell": "S129",
+          "value": 0.06762875739
+        },
+        {
+          "cell": "U129",
+          "value": "https://www.tokopedia.com/anugerahmakmurteknik/nyy-2x10-mm-supreme-kabel-kawat-tembaga-2-x-10-kabel-tufur-engkel?aff_unique_id=&channel=others&chain_key="
+        }
+      ],
+      [
+        {
+          "cell": "B130",
+          "value": "-"
+        },
+        {
+          "cell": "C130",
+          "value": "NYM  2C X 10 mm2 (Flame Retardant) from MCB Box to Shelter Refueler"
+        },
+        {
+          "cell": "L130",
+          "value": 30.0
+        },
+        {
+          "cell": "M130",
+          "value": "m"
+        },
+        {
+          "cell": "N130",
+          "value": 61520.0
+        },
+        {
+          "cell": "O130",
+          "value": 25000.0
+        },
+        {
+          "cell": "P130",
+          "value": 1845600
+        },
+        {
+          "cell": "Q130",
+          "value": 750000
+        },
+        {
+          "cell": "R130",
+          "value": 2595600
+        },
+        {
+          "cell": "S130",
+          "value": 0.09238800142
+        },
+        {
+          "cell": "U130",
+          "value": "https://www.tokopedia.com/veehardware/kabel-supreme-nym-2x10-mm2-50-meter?aff_unique_id=&channel=others&chain_key="
+        }
+      ],
+      [
+        {
+          "cell": "B131",
+          "value": "-"
+        },
+        {
+          "cell": "C131",
+          "value": "NYM  2C X 4 mm2 (Flame Retardant) from MCB Box to Workshop"
+        },
+        {
+          "cell": "L131",
+          "value": 20.0
+        },
+        {
+          "cell": "M131",
+          "value": "m"
+        },
+        {
+          "cell": "N131",
+          "value": 27560.0
+        },
+        {
+          "cell": "O131",
+          "value": 25000.0
+        },
+        {
+          "cell": "P131",
+          "value": 551200
+        },
+        {
+          "cell": "Q131",
+          "value": 500000
+        },
+        {
+          "cell": "R131",
+          "value": 1051200
+        },
+        {
+          "cell": "S131",
+          "value": 0.03741649988
+        },
+        {
+          "cell": "U131",
+          "value": "https://www.tokopedia.com/veehardware/kabel-supreme-nym-2x4-mm2-50-meter?aff_unique_id=&channel=others&chain_key="
+        }
+      ],
+      [
+        {
+          "cell": "B132",
+          "value": "-"
+        },
+        {
+          "cell": "C132",
+          "value": "NYM  2C X 2.5 mm2 (Flame Retardant) from MCB Box to Warehouse Equipment"
+        },
+        {
+          "cell": "L132",
+          "value": 6.0
+        },
+        {
+          "cell": "M132",
+          "value": "m"
+        },
+        {
+          "cell": "N132",
+          "value": 20300.0
+        },
+        {
+          "cell": "O132",
+          "value": 15000.0
+        },
+        {
+          "cell": "P132",
+          "value": 121800
+        },
+        {
+          "cell": "Q132",
+          "value": 90000
+        },
+        {
+          "cell": "R132",
+          "value": 211800
+        },
+        {
+          "cell": "S132",
+          "value": 0.007538826745
+        },
+        {
+          "cell": "U132",
+          "value": "https://www.tokopedia.com/led-lighting-store/kabel-supreme-nym-2x1-5-2x2-5-3x1-5-3x2-5mm-50m-meter-3x2-5mm-5febe?aff_unique_id=&channel=others&chain_key="
+        }
+      ],
+      [
+        {
+          "cell": "B133",
+          "value": "-"
+        },
+        {
+          "cell": "C133",
+          "value": "NYM  2C X 2.5 mm2 (Flame Retardant) from MCB Box to Warehouse Document"
+        },
+        {
+          "cell": "L133",
+          "value": 12.0
+        },
+        {
+          "cell": "M133",
+          "value": "m"
+        },
+        {
+          "cell": "N133",
+          "value": 20300.0
+        },
+        {
+          "cell": "O133",
+          "value": 15000.0
+        },
+        {
+          "cell": "P133",
+          "value": 243600
+        },
+        {
+          "cell": "Q133",
+          "value": 180000
+        },
+        {
+          "cell": "R133",
+          "value": 423600
+        },
+        {
+          "cell": "S133",
+          "value": 0.01507765349
+        }
+      ],
+      [
+        {
+          "cell": "B134",
+          "value": "-"
+        },
+        {
+          "cell": "C134",
+          "value": "NYM  2C X 2.5 mm2 (Flame Retardant) from MCB Box to Warehouse Sample Avtur"
+        },
+        {
+          "cell": "L134",
+          "value": 11.0
+        },
+        {
+          "cell": "M134",
+          "value": "m"
+        },
+        {
+          "cell": "N134",
+          "value": 20300.0
+        },
+        {
+          "cell": "O134",
+          "value": 15000.0
+        },
+        {
+          "cell": "P134",
+          "value": 223300
+        },
+        {
+          "cell": "Q134",
+          "value": 165000
+        },
+        {
+          "cell": "R134",
+          "value": 388300
+        },
+        {
+          "cell": "S134",
+          "value": 0.01382118237
+        }
+      ],
+      [
+        {
+          "cell": "B135",
+          "value": "-"
+        },
+        {
+          "cell": "C135",
+          "value": "NYM  2C X 2.5 mm2 (Flame Retardant) from MCB Box to Warehouse Lubricants"
+        },
+        {
+          "cell": "L135",
+          "value": 16.0
+        },
+        {
+          "cell": "M135",
+          "value": "m"
+        },
+        {
+          "cell": "N135",
+          "value": 20300.0
+        },
+        {
+          "cell": "O135",
+          "value": 15000.0
+        },
+        {
+          "cell": "P135",
+          "value": 324800
+        },
+        {
+          "cell": "Q135",
+          "value": 240000
+        },
+        {
+          "cell": "R135",
+          "value": 564800
+        },
+        {
+          "cell": "S135",
+          "value": 0.02010353799
+        }
+      ],
+      [
+        {
+          "cell": "B136",
+          "value": "-"
+        },
+        {
+          "cell": "C136",
+          "value": "BC Cable 50 mm2 (Flame Retardant) for Warehouse Earthing"
+        },
+        {
+          "cell": "L136",
+          "value": 10.0
+        },
+        {
+          "cell": "M136",
+          "value": "m"
+        },
+        {
+          "cell": "N136",
+          "value": 90000.0
+        },
+        {
+          "cell": "O136",
+          "value": 15000.0
+        },
+        {
+          "cell": "P136",
+          "value": 900000
+        },
+        {
+          "cell": "Q136",
+          "value": 150000
+        },
+        {
+          "cell": "R136",
+          "value": 1050000
+        },
+        {
+          "cell": "S136",
+          "value": 0.03737378698
+        },
+        {
+          "cell": "U136",
+          "value": "https://www.tokopedia.com/aneka-electric/kabel-bc-50mm-full-murni-tembaga-1731382379575215216?aff_unique_id=&channel=others&chain_key="
+        }
+      ],
+      [
+        {
+          "cell": "N137",
+          "value": ""
+        },
+        {
+          "cell": "O137",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A138",
+          "value": "1.2"
+        },
+        {
+          "cell": "B138",
+          "value": "Pengadaan Panel Kelistrikan Warehouse (MCB Box)"
+        },
+        {
+          "cell": "N138",
+          "value": ""
+        },
+        {
+          "cell": "O138",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B139",
+          "value": "1.2.1"
+        },
+        {
+          "cell": "C139",
+          "value": "General Data"
+        },
+        {
+          "cell": "L139",
+          "value": 1.0
+        },
+        {
+          "cell": "M139",
+          "value": "set"
+        },
+        {
+          "cell": "N139",
+          "value": 165000000.0
+        },
+        {
+          "cell": "O139",
+          "value": 5000000.0
+        },
+        {
+          "cell": "P139",
+          "value": 165000000
+        },
+        {
+          "cell": "Q139",
+          "value": 5000000
+        },
+        {
+          "cell": "R139",
+          "value": 170000000
+        },
+        {
+          "cell": "S139",
+          "value": 6.050994083
+        }
+      ],
+      [
+        {
+          "cell": "B140",
+          "value": "-"
+        },
+        {
+          "cell": "C140",
+          "value": "Dimension"
+        },
+        {
+          "cell": "D140",
+          "value": ":"
+        },
+        {
+          "cell": "E140",
+          "value": "350 x 210 x 170 mm"
+        },
+        {
+          "cell": "N140",
+          "value": ""
+        },
+        {
+          "cell": "O140",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B141",
+          "value": "-"
+        },
+        {
+          "cell": "C141",
+          "value": "Type"
+        },
+        {
+          "cell": "D141",
+          "value": ":"
+        },
+        {
+          "cell": "E141",
+          "value": "10 Way MCB Box, Explosion Proof IP66"
+        },
+        {
+          "cell": "N141",
+          "value": ""
+        },
+        {
+          "cell": "O141",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B142",
+          "value": "1.2.2"
+        },
+        {
+          "cell": "C142",
+          "value": "Include With"
+        },
+        {
+          "cell": "N142",
+          "value": ""
+        },
+        {
+          "cell": "O142",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B143",
+          "value": "-"
+        },
+        {
+          "cell": "C143",
+          "value": "Incoming MCB 63 A"
+        },
+        {
+          "cell": "L143",
+          "value": 1.0
+        },
+        {
+          "cell": "M143",
+          "value": "Ea"
+        },
+        {
+          "cell": "N143",
+          "value": 425000.0
+        },
+        {
+          "cell": "O143",
+          "value": 75000.0
+        },
+        {
+          "cell": "P143",
+          "value": 425000
+        },
+        {
+          "cell": "Q143",
+          "value": 75000
+        },
+        {
+          "cell": "R143",
+          "value": 500000
+        },
+        {
+          "cell": "S143",
+          "value": 0.01779704142
+        }
+      ],
+      [
+        {
+          "cell": "B144",
+          "value": "-"
+        },
+        {
+          "cell": "C144",
+          "value": "MCB 32 A Outgoing to Shelter Refuler"
+        },
+        {
+          "cell": "L144",
+          "value": 1.0
+        },
+        {
+          "cell": "M144",
+          "value": "Ea"
+        },
+        {
+          "cell": "N144",
+          "value": 400000.0
+        },
+        {
+          "cell": "O144",
+          "value": 75000.0
+        },
+        {
+          "cell": "P144",
+          "value": 400000
+        },
+        {
+          "cell": "Q144",
+          "value": 75000
+        },
+        {
+          "cell": "R144",
+          "value": 475000
+        },
+        {
+          "cell": "S144",
+          "value": 0.01690718935
+        }
+      ],
+      [
+        {
+          "cell": "B145",
+          "value": "-"
+        },
+        {
+          "cell": "C145",
+          "value": "MCB 20 A Outgoing to Workshop"
+        },
+        {
+          "cell": "L145",
+          "value": 1.0
+        },
+        {
+          "cell": "M145",
+          "value": "Ea"
+        },
+        {
+          "cell": "N145",
+          "value": 320000.0
+        },
+        {
+          "cell": "O145",
+          "value": 75000.0
+        },
+        {
+          "cell": "P145",
+          "value": 320000
+        },
+        {
+          "cell": "Q145",
+          "value": 75000
+        },
+        {
+          "cell": "R145",
+          "value": 395000
+        },
+        {
+          "cell": "S145",
+          "value": 0.01405966272
+        }
+      ],
+      [
+        {
+          "cell": "B146",
+          "value": "-"
+        },
+        {
+          "cell": "C146",
+          "value": "MCB 6 A Outgoing to Warehouse Equipment"
+        },
+        {
+          "cell": "L146",
+          "value": 1.0
+        },
+        {
+          "cell": "M146",
+          "value": "Ea"
+        },
+        {
+          "cell": "N146",
+          "value": 320000.0
+        },
+        {
+          "cell": "O146",
+          "value": 75000.0
+        },
+        {
+          "cell": "P146",
+          "value": 320000
+        },
+        {
+          "cell": "Q146",
+          "value": 75000
+        },
+        {
+          "cell": "R146",
+          "value": 395000
+        },
+        {
+          "cell": "S146",
+          "value": 0.01405966272
+        }
+      ],
+      [
+        {
+          "cell": "B147",
+          "value": "-"
+        },
+        {
+          "cell": "C147",
+          "value": "MCB 4 A Outgoing to Warehouse Document"
+        },
+        {
+          "cell": "L147",
+          "value": 1.0
+        },
+        {
+          "cell": "M147",
+          "value": "Ea"
+        },
+        {
+          "cell": "N147",
+          "value": 320000.0
+        },
+        {
+          "cell": "O147",
+          "value": 75000.0
+        },
+        {
+          "cell": "P147",
+          "value": 320000
+        },
+        {
+          "cell": "Q147",
+          "value": 75000
+        },
+        {
+          "cell": "R147",
+          "value": 395000
+        },
+        {
+          "cell": "S147",
+          "value": 0.01405966272
+        }
+      ],
+      [
+        {
+          "cell": "B148",
+          "value": "-"
+        },
+        {
+          "cell": "C148",
+          "value": "MCB 6 A Outgoing to Warehouse Avtur"
+        },
+        {
+          "cell": "L148",
+          "value": 1.0
+        },
+        {
+          "cell": "M148",
+          "value": "Ea"
+        },
+        {
+          "cell": "N148",
+          "value": 320000.0
+        },
+        {
+          "cell": "O148",
+          "value": 75000.0
+        },
+        {
+          "cell": "P148",
+          "value": 320000
+        },
+        {
+          "cell": "Q148",
+          "value": 75000
+        },
+        {
+          "cell": "R148",
+          "value": 395000
+        },
+        {
+          "cell": "S148",
+          "value": 0.01405966272
+        }
+      ],
+      [
+        {
+          "cell": "B149",
+          "value": "-"
+        },
+        {
+          "cell": "C149",
+          "value": "MCB 4 A Outgoing to Warehouse Lubricants"
+        },
+        {
+          "cell": "L149",
+          "value": 1.0
+        },
+        {
+          "cell": "M149",
+          "value": "Ea"
+        },
+        {
+          "cell": "N149",
+          "value": 320000.0
+        },
+        {
+          "cell": "O149",
+          "value": 75000.0
+        },
+        {
+          "cell": "P149",
+          "value": 320000
+        },
+        {
+          "cell": "Q149",
+          "value": 75000
+        },
+        {
+          "cell": "R149",
+          "value": 395000
+        },
+        {
+          "cell": "S149",
+          "value": 0.01405966272
+        }
+      ],
+      [
+        {
+          "cell": "N150",
+          "value": ""
+        },
+        {
+          "cell": "O150",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A151",
+          "value": "1.3"
+        },
+        {
+          "cell": "B151",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Shelter Refueler"
+        },
+        {
+          "cell": "N151",
+          "value": ""
+        },
+        {
+          "cell": "O151",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B152",
+          "value": "1.3.1"
+        },
+        {
+          "cell": "C152",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N152",
+          "value": ""
+        },
+        {
+          "cell": "O152",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C153",
+          "value": "TL T8 Lamps 20 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L153",
+          "value": 10.0
+        },
+        {
+          "cell": "M153",
+          "value": "Ea"
+        },
+        {
+          "cell": "N153",
+          "value": 110000.0
+        },
+        {
+          "cell": "O153",
+          "value": 50000.0
+        },
+        {
+          "cell": "P153",
+          "value": 1100000
+        },
+        {
+          "cell": "Q153",
+          "value": 500000
+        },
+        {
+          "cell": "R153",
+          "value": 1600000
+        },
+        {
+          "cell": "S153",
+          "value": 0.05695053254
+        }
+      ],
+      [
+        {
+          "cell": "C154",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L154",
+          "value": 5.0
+        },
+        {
+          "cell": "M154",
+          "value": "Ea"
+        },
+        {
+          "cell": "N154",
+          "value": 425000.0
+        },
+        {
+          "cell": "O154",
+          "value": 130000.0
+        },
+        {
+          "cell": "P154",
+          "value": 2125000
+        },
+        {
+          "cell": "Q154",
+          "value": 650000
+        },
+        {
+          "cell": "R154",
+          "value": 2775000
+        },
+        {
+          "cell": "S154",
+          "value": 0.09877357988
+        }
+      ],
+      [
+        {
+          "cell": "B155",
+          "value": "1.3.2"
+        },
+        {
+          "cell": "C155",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N155",
+          "value": ""
+        },
+        {
+          "cell": "O155",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B156",
+          "value": "-"
+        },
+        {
+          "cell": "C156",
+          "value": "Double Lighting Switch"
+        },
+        {
+          "cell": "L156",
+          "value": 1.0
+        },
+        {
+          "cell": "M156",
+          "value": "Ea"
+        },
+        {
+          "cell": "N156",
+          "value": 85000.0
+        },
+        {
+          "cell": "O156",
+          "value": 50000.0
+        },
+        {
+          "cell": "P156",
+          "value": 85000
+        },
+        {
+          "cell": "Q156",
+          "value": 50000
+        },
+        {
+          "cell": "R156",
+          "value": 135000
+        },
+        {
+          "cell": "S156",
+          "value": 0.004805201183
+        }
+      ],
+      [
+        {
+          "cell": "B157",
+          "value": "-"
+        },
+        {
+          "cell": "C157",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L157",
+          "value": 4.0
+        },
+        {
+          "cell": "M157",
+          "value": "Ea"
+        },
+        {
+          "cell": "N157",
+          "value": 95000.0
+        },
+        {
+          "cell": "O157",
+          "value": 50000.0
+        },
+        {
+          "cell": "P157",
+          "value": 380000
+        },
+        {
+          "cell": "Q157",
+          "value": 200000
+        },
+        {
+          "cell": "R157",
+          "value": 580000
+        },
+        {
+          "cell": "S157",
+          "value": 0.02064456805
+        }
+      ],
+      [
+        {
+          "cell": "B158",
+          "value": "1.3.3"
+        },
+        {
+          "cell": "C158",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N158",
+          "value": ""
+        },
+        {
+          "cell": "O158",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B159",
+          "value": "-"
+        },
+        {
+          "cell": "C159",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L159",
+          "value": 150.0
+        },
+        {
+          "cell": "M159",
+          "value": "m"
+        },
+        {
+          "cell": "N159",
+          "value": 20300.0
+        },
+        {
+          "cell": "O159",
+          "value": 15000.0
+        },
+        {
+          "cell": "P159",
+          "value": 3045000
+        },
+        {
+          "cell": "Q159",
+          "value": 2250000
+        },
+        {
+          "cell": "R159",
+          "value": 5295000
+        },
+        {
+          "cell": "S159",
+          "value": 0.1884706686
+        }
+      ],
+      [
+        {
+          "cell": "N160",
+          "value": ""
+        },
+        {
+          "cell": "O160",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A161",
+          "value": "1.4"
+        },
+        {
+          "cell": "B161",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Workshop"
+        },
+        {
+          "cell": "N161",
+          "value": ""
+        },
+        {
+          "cell": "O161",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B162",
+          "value": "1.4.1"
+        },
+        {
+          "cell": "C162",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N162",
+          "value": ""
+        },
+        {
+          "cell": "O162",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C163",
+          "value": "TL T8 Lamps 20 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L163",
+          "value": 6.0
+        },
+        {
+          "cell": "M163",
+          "value": "Ea"
+        },
+        {
+          "cell": "N163",
+          "value": 110000.0
+        },
+        {
+          "cell": "O163",
+          "value": 50000.0
+        },
+        {
+          "cell": "P163",
+          "value": 660000
+        },
+        {
+          "cell": "Q163",
+          "value": 300000
+        },
+        {
+          "cell": "R163",
+          "value": 960000
+        },
+        {
+          "cell": "S163",
+          "value": 0.03417031953
+        }
+      ],
+      [
+        {
+          "cell": "C164",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L164",
+          "value": 3.0
+        },
+        {
+          "cell": "M164",
+          "value": "Ea"
+        },
+        {
+          "cell": "N164",
+          "value": 425000.0
+        },
+        {
+          "cell": "O164",
+          "value": 130000.0
+        },
+        {
+          "cell": "P164",
+          "value": 1275000
+        },
+        {
+          "cell": "Q164",
+          "value": 390000
+        }
+      ],
+      [
+        {
+          "cell": "B165",
+          "value": "1.4.2"
+        },
+        {
+          "cell": "C165",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N165",
+          "value": ""
+        },
+        {
+          "cell": "O165",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B166",
+          "value": "-"
+        },
+        {
+          "cell": "C166",
+          "value": "Double Lighting Switch"
+        },
+        {
+          "cell": "L166",
+          "value": 2.0
+        },
+        {
+          "cell": "M166",
+          "value": "Ea"
+        },
+        {
+          "cell": "N166",
+          "value": 85000.0
+        },
+        {
+          "cell": "O166",
+          "value": 50000.0
+        },
+        {
+          "cell": "P166",
+          "value": 170000
+        },
+        {
+          "cell": "Q166",
+          "value": 100000
+        },
+        {
+          "cell": "R166",
+          "value": 270000
+        },
+        {
+          "cell": "S166",
+          "value": 0.009610402367
+        }
+      ],
+      [
+        {
+          "cell": "B167",
+          "value": "-"
+        },
+        {
+          "cell": "C167",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L167",
+          "value": 2.0
+        },
+        {
+          "cell": "M167",
+          "value": "Ea"
+        },
+        {
+          "cell": "N167",
+          "value": 95000.0
+        },
+        {
+          "cell": "O167",
+          "value": 50000.0
+        },
+        {
+          "cell": "P167",
+          "value": 190000
+        },
+        {
+          "cell": "Q167",
+          "value": 100000
+        },
+        {
+          "cell": "R167",
+          "value": 290000
+        },
+        {
+          "cell": "S167",
+          "value": 0.01032228402
+        }
+      ],
+      [
+        {
+          "cell": "B168",
+          "value": "1.4.3"
+        },
+        {
+          "cell": "C168",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N168",
+          "value": ""
+        },
+        {
+          "cell": "O168",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B169",
+          "value": "-"
+        },
+        {
+          "cell": "C169",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L169",
+          "value": 125.0
+        },
+        {
+          "cell": "M169",
+          "value": "m"
+        },
+        {
+          "cell": "N169",
+          "value": 20300.0
+        },
+        {
+          "cell": "O169",
+          "value": 15000.0
+        },
+        {
+          "cell": "P169",
+          "value": 2537500
+        },
+        {
+          "cell": "Q169",
+          "value": 1875000
+        },
+        {
+          "cell": "R169",
+          "value": 4412500
+        },
+        {
+          "cell": "S169",
+          "value": 0.1570588905
+        }
+      ],
+      [
+        {
+          "cell": "N170",
+          "value": ""
+        },
+        {
+          "cell": "O170",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A171",
+          "value": "1.5"
+        },
+        {
+          "cell": "B171",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Warehouse Equipment"
+        },
+        {
+          "cell": "N171",
+          "value": ""
+        },
+        {
+          "cell": "O171",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B172",
+          "value": "1.5.1"
+        },
+        {
+          "cell": "C172",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N172",
+          "value": ""
+        },
+        {
+          "cell": "O172",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C173",
+          "value": "TL T8 Lamps 10 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L173",
+          "value": 4.0
+        },
+        {
+          "cell": "M173",
+          "value": "Ea"
+        },
+        {
+          "cell": "N173",
+          "value": 110000.0
+        },
+        {
+          "cell": "O173",
+          "value": 50000.0
+        },
+        {
+          "cell": "P173",
+          "value": 440000
+        },
+        {
+          "cell": "Q173",
+          "value": 200000
+        },
+        {
+          "cell": "R173",
+          "value": 640000
+        },
+        {
+          "cell": "S173",
+          "value": 0.02278021302
+        }
+      ],
+      [
+        {
+          "cell": "C174",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L174",
+          "value": 2.0
+        },
+        {
+          "cell": "M174",
+          "value": "Ea"
+        },
+        {
+          "cell": "N174",
+          "value": 425000.0
+        },
+        {
+          "cell": "O174",
+          "value": 130000.0
+        },
+        {
+          "cell": "P174",
+          "value": 850000
+        },
+        {
+          "cell": "Q174",
+          "value": 260000
+        },
+        {
+          "cell": "R174",
+          "value": 1110000
+        },
+        {
+          "cell": "S174",
+          "value": 0.03950943195
+        }
+      ],
+      [
+        {
+          "cell": "B175",
+          "value": "1.5.2"
+        },
+        {
+          "cell": "C175",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N175",
+          "value": ""
+        },
+        {
+          "cell": "O175",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B176",
+          "value": "-"
+        },
+        {
+          "cell": "C176",
+          "value": "Double Lighting Switch"
+        },
+        {
+          "cell": "L176",
+          "value": 1.0
+        },
+        {
+          "cell": "M176",
+          "value": "Ea"
+        },
+        {
+          "cell": "N176",
+          "value": 85000.0
+        },
+        {
+          "cell": "O176",
+          "value": 50000.0
+        },
+        {
+          "cell": "P176",
+          "value": 85000
+        },
+        {
+          "cell": "Q176",
+          "value": 50000
+        },
+        {
+          "cell": "R176",
+          "value": 135000
+        },
+        {
+          "cell": "S176",
+          "value": 0.004805201183
+        }
+      ],
+      [
+        {
+          "cell": "B177",
+          "value": "-"
+        },
+        {
+          "cell": "C177",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L177",
+          "value": 2.0
+        },
+        {
+          "cell": "M177",
+          "value": "Ea"
+        },
+        {
+          "cell": "N177",
+          "value": 95000.0
+        },
+        {
+          "cell": "O177",
+          "value": 50000.0
+        },
+        {
+          "cell": "P177",
+          "value": 190000
+        },
+        {
+          "cell": "Q177",
+          "value": 100000
+        },
+        {
+          "cell": "R177",
+          "value": 290000
+        },
+        {
+          "cell": "S177",
+          "value": 0.01032228402
+        }
+      ],
+      [
+        {
+          "cell": "B178",
+          "value": "1.5.3"
+        },
+        {
+          "cell": "C178",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N178",
+          "value": ""
+        },
+        {
+          "cell": "O178",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C179",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L179",
+          "value": 60.0
+        },
+        {
+          "cell": "M179",
+          "value": "m"
+        },
+        {
+          "cell": "N179",
+          "value": 20300.0
+        },
+        {
+          "cell": "O179",
+          "value": 15000.0
+        },
+        {
+          "cell": "P179",
+          "value": 1218000
+        },
+        {
+          "cell": "Q179",
+          "value": 900000
+        },
+        {
+          "cell": "R179",
+          "value": 2118000
+        },
+        {
+          "cell": "S179",
+          "value": 0.07538826745
+        }
+      ],
+      [
+        {
+          "cell": "N180",
+          "value": ""
+        },
+        {
+          "cell": "O180",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A181",
+          "value": "1.6"
+        },
+        {
+          "cell": "B181",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Warehouse Document"
+        },
+        {
+          "cell": "N181",
+          "value": ""
+        },
+        {
+          "cell": "O181",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B182",
+          "value": "1.6.1"
+        },
+        {
+          "cell": "C182",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N182",
+          "value": ""
+        },
+        {
+          "cell": "O182",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C183",
+          "value": "TL T8 Lamps 10 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L183",
+          "value": 4.0
+        },
+        {
+          "cell": "M183",
+          "value": "Ea"
+        },
+        {
+          "cell": "N183",
+          "value": 110000.0
+        },
+        {
+          "cell": "O183",
+          "value": 50000.0
+        },
+        {
+          "cell": "P183",
+          "value": 440000
+        },
+        {
+          "cell": "Q183",
+          "value": 200000
+        },
+        {
+          "cell": "R183",
+          "value": 640000
+        },
+        {
+          "cell": "S183",
+          "value": 0.02278021302
+        }
+      ],
+      [
+        {
+          "cell": "C184",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L184",
+          "value": 2.0
+        },
+        {
+          "cell": "M184",
+          "value": "Ea"
+        },
+        {
+          "cell": "N184",
+          "value": 425000.0
+        },
+        {
+          "cell": "O184",
+          "value": 130000.0
+        },
+        {
+          "cell": "P184",
+          "value": 850000
+        },
+        {
+          "cell": "Q184",
+          "value": 260000
+        },
+        {
+          "cell": "R184",
+          "value": 1110000
+        },
+        {
+          "cell": "S184",
+          "value": 0.03950943195
+        }
+      ],
+      [
+        {
+          "cell": "B185",
+          "value": "1.6.2"
+        },
+        {
+          "cell": "C185",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N185",
+          "value": ""
+        },
+        {
+          "cell": "O185",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B186",
+          "value": "-"
+        },
+        {
+          "cell": "C186",
+          "value": "Double Lighting Switch"
+        },
+        {
+          "cell": "L186",
+          "value": 1.0
+        },
+        {
+          "cell": "M186",
+          "value": "Ea"
+        },
+        {
+          "cell": "N186",
+          "value": 85000.0
+        },
+        {
+          "cell": "O186",
+          "value": 50000.0
+        },
+        {
+          "cell": "P186",
+          "value": 85000
+        },
+        {
+          "cell": "Q186",
+          "value": 50000
+        },
+        {
+          "cell": "R186",
+          "value": 135000
+        },
+        {
+          "cell": "S186",
+          "value": 0.004805201183
+        }
+      ],
+      [
+        {
+          "cell": "B187",
+          "value": "-"
+        },
+        {
+          "cell": "C187",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L187",
+          "value": 2.0
+        },
+        {
+          "cell": "M187",
+          "value": "Ea"
+        },
+        {
+          "cell": "N187",
+          "value": 95000.0
+        },
+        {
+          "cell": "O187",
+          "value": 50000.0
+        },
+        {
+          "cell": "P187",
+          "value": 190000
+        },
+        {
+          "cell": "Q187",
+          "value": 100000
+        },
+        {
+          "cell": "R187",
+          "value": 290000
+        },
+        {
+          "cell": "S187",
+          "value": 0.01032228402
+        }
+      ],
+      [
+        {
+          "cell": "B188",
+          "value": "1.6.3"
+        },
+        {
+          "cell": "C188",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N188",
+          "value": ""
+        },
+        {
+          "cell": "O188",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C189",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L189",
+          "value": 35.0
+        },
+        {
+          "cell": "M189",
+          "value": "m"
+        },
+        {
+          "cell": "N189",
+          "value": 20300.0
+        },
+        {
+          "cell": "O189",
+          "value": 15000.0
+        },
+        {
+          "cell": "P189",
+          "value": 710500
+        },
+        {
+          "cell": "Q189",
+          "value": 525000
+        },
+        {
+          "cell": "R189",
+          "value": 1235500
+        },
+        {
+          "cell": "S189",
+          "value": 0.04397648935
+        }
+      ],
+      [
+        {
+          "cell": "N190",
+          "value": ""
+        },
+        {
+          "cell": "O190",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A191",
+          "value": "1.7"
+        },
+        {
+          "cell": "B191",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Warehouse Sample Avtur"
+        },
+        {
+          "cell": "N191",
+          "value": ""
+        },
+        {
+          "cell": "O191",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B192",
+          "value": "1.7.1"
+        },
+        {
+          "cell": "C192",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N192",
+          "value": ""
+        },
+        {
+          "cell": "O192",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C193",
+          "value": "TL T8 Lamps 10 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L193",
+          "value": 2.0
+        },
+        {
+          "cell": "M193",
+          "value": "Ea"
+        },
+        {
+          "cell": "N193",
+          "value": 110000.0
+        },
+        {
+          "cell": "O193",
+          "value": 50000.0
+        },
+        {
+          "cell": "P193",
+          "value": 220000
+        },
+        {
+          "cell": "Q193",
+          "value": 100000
+        },
+        {
+          "cell": "R193",
+          "value": 320000
+        },
+        {
+          "cell": "S193",
+          "value": 0.01139010651
+        }
+      ],
+      [
+        {
+          "cell": "C194",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L194",
+          "value": 1.0
+        },
+        {
+          "cell": "M194",
+          "value": "Ea"
+        },
+        {
+          "cell": "N194",
+          "value": 425000.0
+        },
+        {
+          "cell": "O194",
+          "value": 130000.0
+        },
+        {
+          "cell": "P194",
+          "value": 425000
+        },
+        {
+          "cell": "Q194",
+          "value": 130000
+        },
+        {
+          "cell": "R194",
+          "value": 555000
+        },
+        {
+          "cell": "S194",
+          "value": 0.01975471598
+        }
+      ],
+      [
+        {
+          "cell": "B195",
+          "value": "1.7.2"
+        },
+        {
+          "cell": "C195",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N195",
+          "value": ""
+        },
+        {
+          "cell": "O195",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B196",
+          "value": "-"
+        },
+        {
+          "cell": "C196",
+          "value": "Single Lighting Switch"
+        },
+        {
+          "cell": "L196",
+          "value": 1.0
+        },
+        {
+          "cell": "M196",
+          "value": "Ea"
+        },
+        {
+          "cell": "N196",
+          "value": 85000.0
+        },
+        {
+          "cell": "O196",
+          "value": 50000.0
+        },
+        {
+          "cell": "P196",
+          "value": 85000
+        },
+        {
+          "cell": "Q196",
+          "value": 50000
+        },
+        {
+          "cell": "R196",
+          "value": 135000
+        },
+        {
+          "cell": "S196",
+          "value": 0.004805201183
+        }
+      ],
+      [
+        {
+          "cell": "B197",
+          "value": "-"
+        },
+        {
+          "cell": "C197",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L197",
+          "value": 2.0
+        },
+        {
+          "cell": "M197",
+          "value": "Ea"
+        },
+        {
+          "cell": "N197",
+          "value": 95000.0
+        },
+        {
+          "cell": "O197",
+          "value": 50000.0
+        },
+        {
+          "cell": "P197",
+          "value": 190000
+        },
+        {
+          "cell": "Q197",
+          "value": 100000
+        },
+        {
+          "cell": "R197",
+          "value": 290000
+        },
+        {
+          "cell": "S197",
+          "value": 0.01032228402
+        }
+      ],
+      [
+        {
+          "cell": "B198",
+          "value": "1.7.3"
+        },
+        {
+          "cell": "C198",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N198",
+          "value": ""
+        },
+        {
+          "cell": "O198",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C199",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L199",
+          "value": 15.0
+        },
+        {
+          "cell": "M199",
+          "value": "m"
+        },
+        {
+          "cell": "N199",
+          "value": 20300.0
+        },
+        {
+          "cell": "O199",
+          "value": 15000.0
+        },
+        {
+          "cell": "P199",
+          "value": 304500
+        },
+        {
+          "cell": "Q199",
+          "value": 225000
+        },
+        {
+          "cell": "R199",
+          "value": 529500
+        },
+        {
+          "cell": "S199",
+          "value": 0.01884706686
+        }
+      ],
+      [
+        {
+          "cell": "N200",
+          "value": ""
+        },
+        {
+          "cell": "O200",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A201",
+          "value": "1.8"
+        },
+        {
+          "cell": "B201",
+          "value": "Pengadaan & Pemasangan Sistem Pencahayaan Area Warehouse Lubricants"
+        },
+        {
+          "cell": "N201",
+          "value": ""
+        },
+        {
+          "cell": "O201",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B202",
+          "value": "1.8.2"
+        },
+        {
+          "cell": "C202",
+          "value": "Lamps"
+        },
+        {
+          "cell": "N202",
+          "value": ""
+        },
+        {
+          "cell": "O202",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C203",
+          "value": "TL T8 Lamps 10 Watt, 100lm/w, 220/240 V, 50 Hz"
+        },
+        {
+          "cell": "L203",
+          "value": 4.0
+        },
+        {
+          "cell": "M203",
+          "value": "Ea"
+        },
+        {
+          "cell": "N203",
+          "value": 110000.0
+        },
+        {
+          "cell": "O203",
+          "value": 50000.0
+        },
+        {
+          "cell": "P203",
+          "value": 440000
+        },
+        {
+          "cell": "Q203",
+          "value": 200000
+        },
+        {
+          "cell": "R203",
+          "value": 640000
+        },
+        {
+          "cell": "S203",
+          "value": 0.02278021302
+        }
+      ],
+      [
+        {
+          "cell": "C204",
+          "value": "Armature for TL T8 Lamps "
+        },
+        {
+          "cell": "L204",
+          "value": 2.0
+        },
+        {
+          "cell": "M204",
+          "value": "Ea"
+        },
+        {
+          "cell": "N204",
+          "value": 425000.0
+        },
+        {
+          "cell": "O204",
+          "value": 130000.0
+        },
+        {
+          "cell": "P204",
+          "value": 850000
+        },
+        {
+          "cell": "Q204",
+          "value": 260000
+        },
+        {
+          "cell": "R204",
+          "value": 1110000
+        },
+        {
+          "cell": "S204",
+          "value": 0.03950943195
+        }
+      ],
+      [
+        {
+          "cell": "B205",
+          "value": "1.8.3"
+        },
+        {
+          "cell": "C205",
+          "value": "Pengadaan & Pemasangan Lighting Switch, Socket Terminal"
+        },
+        {
+          "cell": "N205",
+          "value": ""
+        },
+        {
+          "cell": "O205",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B206",
+          "value": "-"
+        },
+        {
+          "cell": "C206",
+          "value": "Single Lighting Switch"
+        },
+        {
+          "cell": "L206",
+          "value": 1.0
+        },
+        {
+          "cell": "M206",
+          "value": "Ea"
+        },
+        {
+          "cell": "N206",
+          "value": 85000.0
+        },
+        {
+          "cell": "O206",
+          "value": 50000.0
+        },
+        {
+          "cell": "P206",
+          "value": 85000
+        },
+        {
+          "cell": "Q206",
+          "value": 50000
+        },
+        {
+          "cell": "R206",
+          "value": 135000
+        },
+        {
+          "cell": "S206",
+          "value": 0.004805201183
+        }
+      ],
+      [
+        {
+          "cell": "B207",
+          "value": "-"
+        },
+        {
+          "cell": "C207",
+          "value": "Electrical Socket Terminal"
+        },
+        {
+          "cell": "L207",
+          "value": 2.0
+        },
+        {
+          "cell": "M207",
+          "value": "Ea"
+        },
+        {
+          "cell": "N207",
+          "value": 95000.0
+        },
+        {
+          "cell": "O207",
+          "value": 50000.0
+        },
+        {
+          "cell": "P207",
+          "value": 190000
+        },
+        {
+          "cell": "Q207",
+          "value": 100000
+        },
+        {
+          "cell": "R207",
+          "value": 290000
+        },
+        {
+          "cell": "S207",
+          "value": 0.01032228402
+        }
+      ],
+      [
+        {
+          "cell": "B208",
+          "value": "1,8,4"
+        },
+        {
+          "cell": "C208",
+          "value": "Lighting Cable"
+        },
+        {
+          "cell": "N208",
+          "value": ""
+        },
+        {
+          "cell": "O208",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C209",
+          "value": "NYM 2C x 1,5 (Flame Retardant) for Lighting Power"
+        },
+        {
+          "cell": "L209",
+          "value": 25.0
+        },
+        {
+          "cell": "M209",
+          "value": "m"
+        },
+        {
+          "cell": "N209",
+          "value": 20300.0
+        },
+        {
+          "cell": "O209",
+          "value": 15000.0
+        },
+        {
+          "cell": "P209",
+          "value": 507500
+        },
+        {
+          "cell": "Q209",
+          "value": 375000
+        },
+        {
+          "cell": "R209",
+          "value": 882500
+        },
+        {
+          "cell": "S209",
+          "value": 0.03141177811
+        }
+      ],
+      [
+        {
+          "cell": "N210",
+          "value": ""
+        },
+        {
+          "cell": "O210",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A211",
+          "value": "1.9"
+        },
+        {
+          "cell": "B211",
+          "value": "Pengadaan Cable Conduit "
+        },
+        {
+          "cell": "N211",
+          "value": ""
+        },
+        {
+          "cell": "O211",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B212",
+          "value": "-"
+        },
+        {
+          "cell": "C212",
+          "value": "Cable Conduit  Galvanis Type 3/4 in "
+        },
+        {
+          "cell": "L212",
+          "value": 125.0
+        },
+        {
+          "cell": "M212",
+          "value": "m"
+        },
+        {
+          "cell": "N212",
+          "value": 45000.0
+        },
+        {
+          "cell": "O212",
+          "value": 25000.0
+        },
+        {
+          "cell": "P212",
+          "value": 5625000
+        },
+        {
+          "cell": "Q212",
+          "value": 3125000
+        },
+        {
+          "cell": "R212",
+          "value": 8750000
+        },
+        {
+          "cell": "S212",
+          "value": 0.3114482248
+        },
+        {
+          "cell": "U212",
+          "value": "https://www.tokopedia.com/tp02/pipa-conduit-galvanized-g22-3-4-inch-pipa-dengan-drat?utm_source=google&utm_medium=organic&utm_campaign=pdp"
+        }
+      ],
+      [
+        {
+          "cell": "B213",
+          "value": "-"
+        },
+        {
+          "cell": "C213",
+          "value": "Flexible Cable Conduit 3/4 in"
+        },
+        {
+          "cell": "L213",
+          "value": 15.0
+        },
+        {
+          "cell": "M213",
+          "value": "m"
+        },
+        {
+          "cell": "N213",
+          "value": 23000.0
+        },
+        {
+          "cell": "O213",
+          "value": 10000.0
+        },
+        {
+          "cell": "P213",
+          "value": 345000
+        },
+        {
+          "cell": "Q213",
+          "value": 150000
+        },
+        {
+          "cell": "R213",
+          "value": 495000
+        },
+        {
+          "cell": "S213",
+          "value": 0.01761907101
+        }
+      ],
+      [
+        {
+          "cell": "N214",
+          "value": ""
+        },
+        {
+          "cell": "O214",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A215",
+          "value": "B"
+        },
+        {
+          "cell": "B215",
+          "value": "Pekerjaan Pengadaan dan Pemasangan Sistem Penangkal Petir"
+        }
+      ],
+      [
+        {
+          "cell": "A216",
+          "value": "1.1"
+        },
+        {
+          "cell": "B216",
+          "value": "Pengadaan & Pemasangan Penangkal Petir"
+        },
+        {
+          "cell": "L216",
+          "value": 1.0
+        },
+        {
+          "cell": "M216",
+          "value": "set"
+        },
+        {
+          "cell": "N216",
+          "value": 31500000.0
+        },
+        {
+          "cell": "O216",
+          "value": 12000000.0
+        },
+        {
+          "cell": "P216",
+          "value": 31500000
+        },
+        {
+          "cell": "Q216",
+          "value": 12000000
+        },
+        {
+          "cell": "R216",
+          "value": 43500000
+        },
+        {
+          "cell": "S216",
+          "value": 1.548342604
+        }
+      ],
+      [
+        {
+          "cell": "B217",
+          "value": "General Data"
+        },
+        {
+          "cell": "N217",
+          "value": ""
+        },
+        {
+          "cell": "O217",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C218",
+          "value": "Type"
+        },
+        {
+          "cell": "D218",
+          "value": ":"
+        },
+        {
+          "cell": "E218",
+          "value": "Konvensional (On the roof)"
+        },
+        {
+          "cell": "N218",
+          "value": ""
+        },
+        {
+          "cell": "O218",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "C219",
+          "value": "Include With"
+        },
+        {
+          "cell": "D219",
+          "value": ":"
+        },
+        {
+          "cell": "E219",
+          "value": "Splitzen (tombak atas)"
+        },
+        {
+          "cell": "N219",
+          "value": ""
+        },
+        {
+          "cell": "O219",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "E220",
+          "value": "Pipa galvanis 3/4\""
+        },
+        {
+          "cell": "N220",
+          "value": ""
+        },
+        {
+          "cell": "O220",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "E221",
+          "value": "Kabel BC 16 "
+        },
+        {
+          "cell": "N221",
+          "value": ""
+        },
+        {
+          "cell": "O221",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "E222",
+          "value": "Grounding rod bonded 5/8"
+        },
+        {
+          "cell": "N222",
+          "value": ""
+        },
+        {
+          "cell": "O222",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "E223",
+          "value": "Klem cincing rod grounding"
+        },
+        {
+          "cell": "N223",
+          "value": ""
+        },
+        {
+          "cell": "O223",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "E224",
+          "value": "Pembumian"
+        },
+        {
+          "cell": "N224",
+          "value": ""
+        },
+        {
+          "cell": "O224",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "N225",
+          "value": ""
+        },
+        {
+          "cell": "O225",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "A226",
+          "value": "1.2"
+        },
+        {
+          "cell": "B226",
+          "value": "Sertifikasi penangkal petir dari Disnaker"
+        },
+        {
+          "cell": "L226",
+          "value": 1.0
+        },
+        {
+          "cell": "M226",
+          "value": "Ls"
+        },
+        {
+          "cell": "N226",
+          "value": 0.0
+        },
+        {
+          "cell": "O226",
+          "value": 25000000.0
+        },
+        {
+          "cell": "P226",
+          "value": 0
+        },
+        {
+          "cell": "Q226",
+          "value": 25000000
+        },
+        {
+          "cell": "R226",
+          "value": 25000000
+        },
+        {
+          "cell": "S226",
+          "value": 0.889852071
+        }
+      ],
+      [
+        {
+          "cell": "N227",
+          "value": ""
+        },
+        {
+          "cell": "O227",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B228",
+          "value": "SUBTOTAL"
+        },
+        {
+          "cell": "P228",
+          "value": 31500000
+        },
+        {
+          "cell": "Q228",
+          "value": 37000000
+        }
+      ],
+      [
+        {
+          "cell": "A230",
+          "value": "IV"
+        },
+        {
+          "cell": "B230",
+          "value": "PEKERJAAN FINISHING"
+        }
+      ],
+      [
+        {
+          "cell": "A231",
+          "value": "4.1"
+        },
+        {
+          "cell": "B231",
+          "value": "Pembersihan lokasi kerja"
+        },
+        {
+          "cell": "L231",
+          "value": 1.0
+        },
+        {
+          "cell": "M231",
+          "value": "Ls"
+        },
+        {
+          "cell": "N231",
+          "value": 0.0
+        },
+        {
+          "cell": "O231",
+          "value": 10000000.0
+        },
+        {
+          "cell": "P231",
+          "value": 0
+        },
+        {
+          "cell": "Q231",
+          "value": 10000000
+        },
+        {
+          "cell": "R231",
+          "value": 10000000
+        },
+        {
+          "cell": "S231",
+          "value": 0.3559408284
+        }
+      ],
+      [
+        {
+          "cell": "A232",
+          "value": "4.2"
+        },
+        {
+          "cell": "B232",
+          "value": "Verifikasi TKDN"
+        },
+        {
+          "cell": "L232",
+          "value": 1.0
+        },
+        {
+          "cell": "M232",
+          "value": "Ls"
+        },
+        {
+          "cell": "N232",
+          "value": 0.0
+        },
+        {
+          "cell": "O232",
+          "value": 30000000.0
+        },
+        {
+          "cell": "P232",
+          "value": 0
+        },
+        {
+          "cell": "Q232",
+          "value": 30000000
+        },
+        {
+          "cell": "R232",
+          "value": 30000000
+        },
+        {
+          "cell": "S232",
+          "value": 1.067822485
+        }
+      ],
+      [
+        {
+          "cell": "N233",
+          "value": ""
+        },
+        {
+          "cell": "O233",
+          "value": ""
+        }
+      ],
+      [
+        {
+          "cell": "B234",
+          "value": "SUBTOTAL"
+        },
+        {
+          "cell": "P234",
+          "value": 0
+        },
+        {
+          "cell": "Q234",
+          "value": 40000000
+        }
+      ],
+      [
+        {
+          "cell": "B236",
+          "value": "TOTAL SUB JUMLAH I-IV"
+        },
+        {
+          "cell": "P236",
+          "value": 1700561085
+        },
+        {
+          "cell": "Q236",
+          "value": 1108894645
+        }
+      ],
+      [
+        {
+          "cell": "B237",
+          "value": "TOTAL SUB JUMLAH"
+        },
+        {
+          "cell": "Q237",
+          "value": 2809455730
+        }
+      ],
+      [
+        {
+          "cell": "B238",
+          "value": "KEUNTUNGAN & RESIKO*"
+        },
+        {
+          "cell": "D238",
+          "value": 0.1
+        },
+        {
+          "cell": "Q238",
+          "value": 280945573
+        }
+      ],
+      [
+        {
+          "cell": "B239",
+          "value": "TOTAL + KEUNTUNGAN & RESIKO"
+        },
+        {
+          "cell": "Q239",
+          "value": 3090401303
+        },
+        {
+          "cell": "T239",
+          "value": 3652000000.0
+        }
+      ],
+      [
+        {
+          "cell": "B240",
+          "value": "PEMBULATAN "
+        },
+        {
+          "cell": "Q240",
+          "value": 3090000000
+        },
+        {
+          "cell": "T240",
+          "value": 3286800000
+        }
+      ],
+      [
+        {
+          "cell": "B241",
+          "value": "TERBILANG: TIGA MILYAR SEMBILAN PULUH JUTA RUPIAH"
+        }
+      ],
+      [
+        {
+          "cell": "C243",
+          "value": "Jakarta, 9 September 2025"
+        }
+      ],
+      [
+        {
+          "cell": "C244",
+          "value": "PT. USAHA JAYA ENGINEERING"
+        }
+      ],
+      [
+        {
+          "cell": "C249",
+          "value": "CHARLES SETIAWAN"
+        }
+      ],
+      [
+        {
+          "cell": "C250",
+          "value": "Direktur"
+        }
+      ]
+    ]
+  }
+}
