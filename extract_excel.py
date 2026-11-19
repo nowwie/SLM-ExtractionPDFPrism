@@ -506,6 +506,7 @@ def is_roman_numeral(text: str) -> bool:
 # =========================================================
 
 def extract_boq_nego(ws, rows):
+
     """
     Struktur BOQ Nego (presisi penuh tanpa pembulatan):
     - A/B atau B/C = kode dan nama item
@@ -514,6 +515,8 @@ def extract_boq_nego(ws, rows):
     - P = total material, Q = total jasa
     - Menangkap seluruh item pekerjaan, hierarki WBS, sub-rincian lingkup, subtotal bab, & ringkasan akhir.
     """
+
+    header_row = find_header_row(ws) or 9
     items = []
     summary_entries = []
     skipped = []
@@ -527,7 +530,7 @@ def extract_boq_nego(ws, rows):
         row_num = row["row_num"]
         cells = row["cells"]
 
-        if row_num <= 10:
+        if row_num <= header_row + 1:
             continue
 
         def value(col):
@@ -725,7 +728,7 @@ def extract_boq_nego(ws, rows):
     ringkasan = build_structured_ringkasan(summary_entries)
 
     return {
-        "header_row": 9,
+        "header_row": header_row,
         "column_mapping": {
             "kode": "A/B (dinamis)",
             "nama": "B/C (dinamis)",
