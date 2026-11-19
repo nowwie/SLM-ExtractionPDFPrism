@@ -4,6 +4,17 @@ __pycache__/
 
 .env
 
+# Kunci kredensial & rahasia
+service_account.json
+*service-account*.json
+.env
+
+# Folder & file dokumen data riil / sampel pengadaan
+data/
+*.xlsx
+*.xls
+*.pdf
+*.csv
 
 data/*.pdf
 data/extracted_pdf.json

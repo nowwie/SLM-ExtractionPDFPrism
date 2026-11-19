@@ -1,172 +1,132 @@
+import os
+import logging
+from typing import List, Optional
+from fastapi import FastAPI, UploadFile, File, Form, Header, HTTPException, Depends
+from pydantic import BaseModel
+from googleapiclient.errors import HttpError
 
-import io
-import json
-from pathlib import Path
+from gdrive_router import process_gdrive_document
+from extract_pdf import extract_form_a5_bytes
+from extract_excel import extract_excel_bytes
 
-import ollama
-from fastapi import FastAPI, UploadFile, File, HTTPException
-from pypdf import PdfReader
+app = FastAPI(title="PRISM AI & Analytics Service")
+logger = logging.getLogger(__name__)
 
-app = FastAPI(title="PRISM API")
+API_KEY = os.getenv("PRISM_AI_API_KEY", "prism-secret-key-2026")
 
-MODEL = "llama3.2:3b"
+def verify_api_key(x_api_key: str = Header(...)):
+    if x_api_key != API_KEY:
+        raise HTTPException(status_code=401, detail="API Key tidak valid.")
 
-# Struktur data yang diharapkan dari Llama
-EXPECTED_SCHEMA = {
-    "vendor": None,
-    "nama_pengadaan": None,
-    "lokasi_pengadaan": None,
-    "barang": {
-        "rincian": [
-            {
-                "nama_komponen": None,
-                "dalam_negeri": None,
-                "luar_negeri": None,
-                "total": None,
-                "tkdn_persen": None
-            }
-        ],
-        "subtotal_dalam_negeri": None,
-        "subtotal_luar_negeri": None,
-        "subtotal": None,
-        "tkdn_persen": None
-    },
-    "jasa": {
-        "rincian": [
-            {
-                "nama_komponen": None,
-                "dalam_negeri": None,
-                "luar_negeri": None,
-                "total": None,
-                "tkdn_persen": None
-            }
-        ],
-        "subtotal_dalam_negeri": None,
-        "subtotal_luar_negeri": None,
-        "subtotal": None,
-        "tkdn_persen": None
-    },
-    "komponen_bukan_biaya": None,
-    "nilai_penawaran": None
-}
+# --- 1. Ekstraksi via Link Google Drive ---
+class GDriveRequest(BaseModel):
+    gdrive_url: str
+    doc_type: str = "auto"  # "auto" | "oe_historis" | "penawaran_excel" | "form_a5"
 
-
-def extract_pdf_text(pdf_bytes: bytes) -> str:
-    """Membaca teks PDF tanpa menyimpan PDF sebagai file baru."""
-
-    reader = PdfReader(io.BytesIO(pdf_bytes))
-
-    pages = []
-
-    for page in reader.pages:
-        text = page.extract_text() or ""
-        pages.append(text)
-
-    document_text = "\n".join(pages).strip()
-
-    if not document_text:
-        raise ValueError(
-            "Teks PDF tidak berhasil dibaca. "
-            "Dokumen mungkin berupa hasil scan."
-        )
-
-    return document_text
-
-
-def extract_structured_data(document_text: str) -> dict:
-    """Memetakan teks PDF menjadi JSON menggunakan Llama."""
-
-    prompt = f"""
-Kamu adalah modul ekstraksi dokumen pengadaan untuk PRISM.
-
-Ekstrak data dari dokumen berdasarkan teks sumber.
-Jangan mengarang nilai dan jangan menghitung ulang angka.
-
-Aturan:
-1. Nilai uang harus berupa integer tanpa pemisah ribuan.
-2. Persentase TKDN berupa angka, misalnya 85.47.
-3. Gunakan null jika nilai tidak ditemukan.
-4. Jangan menganggap nilai yang tidak ditemukan sebagai nol.
-5. Pertahankan nama setiap komponen sesuai dokumen.
-6. Pisahkan biaya dalam negeri dan luar negeri.
-7. Subtotal barang dan subtotal jasa harus diambil
-   dari baris subtotal yang sesuai.
-8. Nilai penawaran harus berasal dari JUMLAH NILAI PENAWARAN.
-9. Rincian barang dan jasa harus berupa array.
-10. Kembalikan JSON valid saja, tanpa markdown.
-
-Ikuti struktur JSON ini:
-{json.dumps(EXPECTED_SCHEMA, ensure_ascii=False)}
-
-TEKS DOKUMEN:
-{document_text}
-"""
-
-    response = ollama.chat(
-        model=MODEL,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
-        format="json",
-        options={"temperature": 0}
-    )
-
-    raw_result = response["message"]["content"]
-    data = json.loads(raw_result)
-
-    if not isinstance(data, dict):
-        raise ValueError("Hasil ekstraksi bukan objek JSON.")
-
-    return data
-
-
-@app.get("/")
-def home():
-    return {
-        "application": "PRISM API",
-        "status": "running"
-    }
-
-
-@app.post("/extract")
-async def extract_document(file: UploadFile = File(...)):
-    """Menerima PDF dan mengembalikan hasil ekstraksi sebagai JSON."""
-
-    if not file.filename or Path(file.filename).suffix.lower() != ".pdf":
+@app.post("/api/extract/gdrive", dependencies=[Depends(verify_api_key)])
+def extract_from_gdrive(req: GDriveRequest):
+    try:
+        result = process_gdrive_document(req.gdrive_url, req.doc_type)
+        return {
+            "status": result.get("status", "success"),
+            "source": "gdrive",
+            "result": result,
+        }
+    except PermissionError as e:
+        raise HTTPException(status_code=403, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except HttpError as e:
+        status_code = e.resp.status
+        reason = getattr(e, "reason", "") or "Permintaan Google Drive gagal."
+        if status_code == 403:
+            detail = (
+                f"Akses Google Drive ditolak: {reason} "
+                "Pastikan service account sudah diberi akses ke folder."
+            )
+        elif status_code == 404:
+            detail = (
+                "Folder/file tidak ditemukan atau belum dibagikan ke service account."
+            )
+        else:
+            detail = f"Google Drive API gagal (HTTP {status_code}): {reason}"
         raise HTTPException(
-            status_code=400,
-            detail="File harus berformat PDF."
+            status_code=status_code if status_code < 500 else 502,
+            detail=detail,
         )
+    except Exception as e:
+        logger.exception("Gagal memproses dokumen dari Google Drive")
+        raise HTTPException(status_code=500, detail=f"Gagal memproses dokumen: {type(e).__name__}: {e}")
+
+# --- 2. Ekstraksi via Upload Langsung (Zero Disk Retention) ---
+@app.post("/api/extract/upload", dependencies=[Depends(verify_api_key)])
+async def extract_from_upload(
+    file: UploadFile = File(...),
+    doc_type: str = Form("auto")
+):
+    file_bytes = await file.read()
+    filename = (file.filename or "").lower()
 
     try:
-        pdf_bytes = await file.read()
+        if filename.endswith(".pdf") or doc_type == "form_a5":
+            result = extract_form_a5_bytes(file_bytes)
+        elif filename.endswith((".xlsx", ".xls", ".xlsm")) or doc_type in ("oe_historis", "penawaran_excel"):
+            result = extract_excel_bytes(
+                file_bytes, 
+                filename=file.filename)
+        else:
+            raise HTTPException(status_code=400, detail="Format file harus PDF atau Excel (.xlsx).")
 
-        if not pdf_bytes:
-            raise HTTPException(
-                status_code=400,
-                detail="File PDF kosong."
-            )
-
-        document_text = extract_pdf_text(pdf_bytes)
-        extracted_data = extract_structured_data(document_text)
-
-        return {
-            "filename": file.filename,
-            "status": "success",
-            "data": extracted_data
-        }
-
+        return {"status": "success", "source": "upload", "result": result}
     except HTTPException:
         raise
-
     except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Ekstraksi gagal: {str(e)}"
-        )
+        raise HTTPException(status_code=500, detail=f"Gagal memproses file: {type(e).__name__}")
 
-    finally:
-        await file.close()
+# --- 3. Analisis Harga Timpang (Rule-Based) ---
+class ItemHargaTimpang(BaseModel):
+    kode_item: Optional[str] = None
+    nama_item: str
+    kategori: Optional[str] = None  # "material" atau "jasa"
+    oe_per_unit: float
+    harga_penawaran: float
+
+class HargaTimpangRequest(BaseModel):
+    items: List[ItemHargaTimpang]
+    threshold_persen: float = 110.0  # Acuan default > 110% OE
+
+@app.post("/api/analisis/harga-timpang", dependencies=[Depends(verify_api_key)])
+def cek_harga_timpang(req: HargaTimpangRequest):
+    hasil_item = []
+    jumlah_timpang = 0
+
+    for item in req.items:
+        if item.oe_per_unit <= 0:
+            rasio_persen = None
+            deviasi_persen = None
+            is_timpang = False
+        else:
+            rasio_persen = round((item.harga_penawaran / item.oe_per_unit) * 100, 2)
+            deviasi_persen = round(rasio_persen - 100.0, 2)
+            is_timpang = rasio_persen > req.threshold_persen
+
+        if is_timpang:
+            jumlah_timpang += 1
+
+        hasil_item.append({
+            "kode_item": item.kode_item,
+            "nama_item": item.nama_item,
+            "kategori": item.kategori,
+            "oe_per_unit": item.oe_per_unit,
+            "harga_penawaran": item.harga_penawaran,
+            "rasio_terhadap_oe_persen": rasio_persen,
+            "deviasi_persen": deviasi_persen,
+            "is_harga_timpang": is_timpang
+        })
+
+    return {
+        "threshold_persen": req.threshold_persen,
+        "total_item": len(hasil_item),
+        "total_harga_timpang": jumlah_timpang,
+        "items": hasil_item
+    }
