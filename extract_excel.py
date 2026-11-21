@@ -754,7 +754,7 @@ def extract_boq_nego(ws, rows):
 
 # =========================================================
 # EKSTRAKSI SHEET REKAPITULASI
-# =========================================================
+
 
 def extract_rekapitulasi_sheet(ws, rows):
     """
@@ -882,7 +882,7 @@ def extract_rekapitulasi_sheet(ws, rows):
 def extract_items_from_sheet(ws, rows):
     sheet_lower = normalize_text(ws.title)
 
-    if sheet_lower == "boq nego":
+    if sheet_lower in {"boq nego", "boq oe", "oe", "rab", "boq"}:
         return extract_boq_nego(ws, rows)
 
     if "rekapitulasi" in sheet_lower or "rekap" in sheet_lower:
@@ -1117,6 +1117,7 @@ def compute_financial_reconciliation(sheets_data: dict) -> dict:
 def extract_excel_bytes(
     file_bytes: bytes,
     filename: Optional[str] = None,
+    doc_role: str = "vendor",
 ) -> dict:
     workbook = openpyxl.load_workbook(
         io.BytesIO(file_bytes),
@@ -1125,7 +1126,15 @@ def extract_excel_bytes(
     )
 
     try:
-        vendor = detect_vendor(workbook)
+        if doc_role == "oe":
+            vendor = {
+                "nama": "OWNER ESTIMATE",
+                "bukti_sumber": [],
+                "status": "internal_oe",
+            }
+        else:
+            vendor = detect_vendor(workbook)
+
 
         result = {
             "file_name": filename,

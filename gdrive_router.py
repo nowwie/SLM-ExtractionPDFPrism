@@ -5,6 +5,7 @@ import re
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
+from typing import Optional
 
 from extract_pdf import extract_form_a5_bytes
 from extract_excel import extract_excel_bytes
@@ -63,11 +64,21 @@ def download_single_file(service, file_id: str, mime_type: str) -> tuple[bytes, 
     return buffer.getvalue(), ext
 
 
-def route_to_extractor(file_bytes: bytes, ext: str, doc_type: str = "auto") -> dict:
+def route_to_extractor(
+    file_bytes: bytes,
+    ext: str,
+    doc_type: str = "auto",
+    filename: Optional[str] = None,  
+) -> dict:
     if ext == "pdf" or doc_type == "form_a5":
         return extract_form_a5_bytes(file_bytes)
     if ext == "xlsx" or doc_type in ("oe_historis", "penawaran_excel"):
-        return extract_excel_bytes(file_bytes)
+        role = "oe" if doc_type == "oe_historis" else "vendor"
+        return extract_excel_bytes(
+            file_bytes,
+            filename=filename,      
+            doc_role=role,         
+        )
     raise ValueError(f"Format file tidak didukung: {ext}")
 
 
@@ -121,7 +132,7 @@ def process_gdrive_document(gdrive_url: str, doc_type: str = "auto") -> dict:
 
             try:
                 file_bytes, ext = download_single_file(service, f["id"], f_mime)
-                extracted = route_to_extractor(file_bytes, ext, doc_type)
+                extracted = route_to_extractor(file_bytes, ext, doc_type, filename=f.get("name"))
                 processed_files.append(
                     {
                         "file_name": f.get("name"),
@@ -159,7 +170,7 @@ def process_gdrive_document(gdrive_url: str, doc_type: str = "auto") -> dict:
         )
 
     file_bytes, ext = download_single_file(service, drive_id, mime_type)
-    extracted = route_to_extractor(file_bytes, ext, doc_type)
+    extracted = route_to_extractor(file_bytes, ext, doc_type, filename=meta.get("name"))
 
     return {
         "mode": "single_file",

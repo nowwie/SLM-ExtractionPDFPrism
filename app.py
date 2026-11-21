@@ -71,9 +71,12 @@ async def extract_from_upload(
         if filename.endswith(".pdf") or doc_type == "form_a5":
             result = extract_form_a5_bytes(file_bytes)
         elif filename.endswith((".xlsx", ".xls", ".xlsm")) or doc_type in ("oe_historis", "penawaran_excel"):
+            role = "oe" if doc_type == "oe_historis" else "vendor"
             result = extract_excel_bytes(
-                file_bytes, 
-                filename=file.filename)
+                file_bytes,
+                filename=file.filename,
+                doc_role=role,
+            )
         else:
             raise HTTPException(status_code=400, detail="Format file harus PDF atau Excel (.xlsx).")
 
